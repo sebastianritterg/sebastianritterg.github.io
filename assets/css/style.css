@@ -1,0 +1,15 @@
+/* Sidebar-style container for profile photo + header */
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Make the photo square, cropped, with rounded corners */
+.profile-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
