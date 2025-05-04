@@ -1,19 +1,9 @@
 
 ---
+
 title: "Home"
+
 ---
-<img
-  src="/assets/img/profile.jpg"
-  alt="Profile photo"
-  style="
-    float: left;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin: 0 1rem 1rem 0;
-  "
-/>
 
 # Sebastian Ritter  
 **PhD Candidate in Economics**
