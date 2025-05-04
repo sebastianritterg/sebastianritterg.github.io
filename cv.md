@@ -1,5 +1,6 @@
 ---
-title: "4 CV"
+title: "CV"
+order: 4
 permalink: /cv/
 ---
 
