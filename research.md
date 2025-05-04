@@ -1,5 +1,7 @@
 ---
-title: "2 Research"
+title: "Research"
+order: 2
+permalink: /research/
 ---
 
 # Published Papers
