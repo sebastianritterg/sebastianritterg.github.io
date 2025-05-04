@@ -4,13 +4,3 @@ theme: minima
 include:
   - assets/css/custom.css
 
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Conferences and Seminars"
-    url: "/conferences/"
-  - title: "CV"
-    url: "/cv/"
-
