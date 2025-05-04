@@ -1,3 +1,14 @@
 title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
-theme: jekyll-theme-primer
+theme: minima
+
+navigation:
+navigation:
+  - title: "1 Home"
+    url: "/"
+  - title: "2 Research"
+    url: "/research/"
+  - title: "3 Conferences and Seminars"
+    url: "/conferences/"
+  - title: "4 CV"
+    url: "/cv/"
