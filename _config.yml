@@ -3,12 +3,12 @@ description: "PhD Candidate in Economics"
 theme: minima
 
 navigation:
-  - title: "Home"
+  - title: "1 Home"
     url: "/"
-  - title: "Research"
+  - title: "2 Research"
     url: "/research/"
-  - title: "Conferences and Seminars"
+  - title: "3 Conferences and Seminars"
     url: "/conferences/"
-  - title: "CV"
+  - title: "4 CV"
     url: "/cv/"
 
