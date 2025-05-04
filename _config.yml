@@ -5,12 +5,12 @@ include:
   - assets/css/custom.css
 
 navigation:
-  - title: "1 Home"
+  - title: "Home"
     url: "/"
-  - title: "2 Research"
+  - title: "Research"
     url: "/research/"
-  - title: "3 Conferences and Seminars"
+  - title: "Conferences and Seminars"
     url: "/conferences/"
-  - title: "4 CV"
+  - title: "CV"
     url: "/cv/"
 
