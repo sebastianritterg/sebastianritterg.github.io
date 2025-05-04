@@ -3,7 +3,6 @@
 title: "Home"
 ---
 
-
 # Sebastian Ritter  
 **PhD Candidate in Economics**
 
