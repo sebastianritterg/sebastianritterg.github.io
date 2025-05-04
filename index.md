@@ -1,6 +1,3 @@
----
-title: "Home"
----
 <!-- Foto flotando a la izquierda -->
 <img
   src="/assets/img/profile.jpg"
@@ -14,6 +11,10 @@ title: "Home"
     margin: 0 1rem 1rem 0;
   "
 />
+---
+title: "Home"
+---
+
 
 # Sebastian Ritter  
 **PhD Candidate in Economics**
