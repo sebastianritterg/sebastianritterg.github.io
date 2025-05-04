@@ -1,4 +1,4 @@
-<!-- Foto flotando a la izquierda -->
+---
 <img
   src="/assets/img/profile.jpg"
   alt="Profile photo"
@@ -11,6 +11,7 @@
     margin: 0 1rem 1rem 0;
   "
 />
+---
 ---
 title: "Home"
 ---
