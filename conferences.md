@@ -1,7 +1,8 @@
 ---
 title: "Conferences and Seminars"
-order: 3
+layout: single
 permalink: /conferences/
+order: 3
 ---
 
 # Conferences and Seminars
