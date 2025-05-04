@@ -1,0 +1,13 @@
+title: "Sebastian Ritter Gutierrez"
+description: "PhD Candidate in Economics"
+theme: minima
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Conferences"
+    url: "/conferences/"
+  - title: "CV"
+    url: "/cv/"
