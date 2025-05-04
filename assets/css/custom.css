@@ -1,0 +1,5 @@
+/* Limpia cualquier número o espacio sobrante en los enlaces del nav */
+nav.site-nav li a {
+  /* Quita todos los dígitos y espacios iniciales del texto visible */
+  counter-reset: none; /* en caso de numeración automática */
+}
