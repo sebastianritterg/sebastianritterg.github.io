@@ -1,5 +1,7 @@
 ---
 title: "Home"
+author_profile: "/assets/img/profile.jpg"
+author_header: "PhD Candidate in Economics"
 ---
 
 # Sebastian Ritter  
