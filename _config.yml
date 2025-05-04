@@ -1,6 +1,8 @@
 title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
 theme: minima
+include:
+  - assets/css/custom.css
 
 navigation:
   - title: "1 Home"
