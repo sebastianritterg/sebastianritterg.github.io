@@ -1,5 +1,7 @@
 ---
-title: "1 Home"
+title: "Home"
+order: 1
+permalink: /
 ---
 <div style="float:left; margin:0 1.5rem 1rem 0; width:150px; height:150px; overflow:hidden; border-radius:8px;">
   <img 
