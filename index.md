@@ -2,10 +2,6 @@
 ---
 title: "Home"
 ---
-
-# Sebastian Ritter  
-**PhD Candidate in Economics**
-
 <img
   src="/assets/img/profile.jpg"
   alt="Profile photo"
@@ -18,6 +14,10 @@ title: "Home"
     margin: 0 1rem 1rem 0;
   "
 />
+
+# Sebastian Ritter  
+**PhD Candidate in Economics**
+
 
 ## About me
 
