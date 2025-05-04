@@ -1,8 +1,11 @@
 ---
 title: "1 Home"
 ---
-<div style="float:left; margin-right:1rem;">
-  <img src="/assets/img/profile.jpg" alt="Profile photo" width="150" style="border-radius:50%;" />
+<div style="float:left; margin:0 1.5rem 1rem 0; width:150px; height:150px; overflow:hidden; border-radius:8px;">
+  <img 
+    src="/assets/img/profile.jpg" 
+    alt="Profile photo" 
+    style="width:100%; height:100%; object-fit:cover;" />
 </div>
 
 # Sebastian Ritter  
