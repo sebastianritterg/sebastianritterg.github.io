@@ -1,8 +1,10 @@
 ---
 title: "Research"
-order: 2
 permalink: /research/
+order: 2
+layout: single
 ---
+
 
 # Published Papers
 
