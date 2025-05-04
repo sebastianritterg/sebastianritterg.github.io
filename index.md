@@ -1,9 +1,8 @@
 ---
 title: "1 Home"
 ---
-<div style="display:flex;align-items:center; margin-bottom:1rem;">
+<div style="display:flex;align-items:center; margin-bottom:1rem;" markdown="1">
   <img src="{{ site.baseurl }}/assets/img/profile.jpg" alt="Profile photo" width="150" style="border-radius:50%; margin-right:1rem;" />
-  <div>
 
 # Sebastian Ritter  
 **PhD Candidate in Economics**
@@ -21,4 +20,3 @@ I am a PhD student in Economics at the University of Barcelona, supervised by Vi
 - [Twitter]()
   
   </div>
-</div>
