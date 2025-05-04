@@ -1,9 +1,8 @@
 ---
 title: "Home"
-permalink: /
 ---
 
-<!-- Foto flotando a la izquierda -->
+<!-- Foto flotando a la izquierda y un poquito más arriba -->
 <img
   src="/assets/img/profile.jpg"
   alt="Profile photo"
@@ -13,7 +12,7 @@ permalink: /
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 0 1rem 1rem 0;
+    margin: -0.5rem 1rem 1rem 0;
   "
 />
 
