@@ -3,25 +3,19 @@ title: "Home"
 permalink: /
 ---
 
-<!-- Layout inline: foto a la izquierda + texto a la derecha -->
-<div style="
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 2rem;
-">
-  <img
-    src="/assets/img/profile.jpg"
-    alt="Profile photo"
-    style="
-      width:150px;
-      height:150px;
-      object-fit:cover;
-      border-radius:8px;
-    "
-  />
-  <div>
-<!-- Y a partir de aquí, tu contenido en Markdown: -->
+<!-- Etiqueta IMG con float para la foto -->
+<img
+  src="/assets/img/profile.jpg"
+  alt="Profile photo"
+  style="
+    float: left;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 1rem 1rem 0;
+  "
+/>
 
 # Sebastian Ritter  
 **PhD Candidate in Economics**
@@ -40,7 +34,3 @@ I am a PhD student in Economics at the University of Barcelona, supervised by Vi
 - [GitHub](https://github.com/sebaritterg)  
 - [Google Scholar]()  
 - [Twitter]()
-
-<!-- Cierra el wrapper -->
-  </div>
-</div>
