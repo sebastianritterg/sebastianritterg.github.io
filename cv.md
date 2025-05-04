@@ -1,9 +1,9 @@
 ---
 title: "CV"
-order: 4
+layout: single
 permalink: /cv/
+order: 4
 ---
-
 # Curriculum Vitae
 
 You can download my full CV in PDF format here:
