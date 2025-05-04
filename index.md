@@ -1,8 +1,10 @@
 ---
 title: "Home"
-order: 1
 permalink: /
+order: 1
+layout: home
 ---
+
 <div style="float:left; margin:0 2rem 1rem 0; width:150px; height:150px; overflow:hidden; border-radius:8px;">
   <img src="/assets/img/profile.jpg" alt="Profile photo" style="width:100%; height:100%; object-fit:cover;" />
 </div>
