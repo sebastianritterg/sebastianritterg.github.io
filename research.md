@@ -11,6 +11,6 @@ title: "Research"
 
 # Work in Progress
 
-- **“Twin Transition effects on human (Im)mobility: a multilevel model analysis.”**  
+- **“Twin Transition effects on human (Im)mobility: a multilevel model analysis”**  
 
 - **“Do language policies affect internal migration in a multilingual country?”**  
