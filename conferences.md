@@ -1,5 +1,7 @@
 ---
-title: "3 Conferences and Seminars"
+title: "Conferences and Seminars"
+order: 3
+permalink: /conferences/
 ---
 
 # Conferences and Seminars
