@@ -1,8 +1,6 @@
 ---
 title: "CV"
-layout: single
 permalink: /cv/
-order: 4
 ---
 # Curriculum Vitae
 
