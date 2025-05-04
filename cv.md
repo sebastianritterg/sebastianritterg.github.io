@@ -1,5 +1,6 @@
 ---
 title: "CV"
+permalink: /cv/
 ---
 
 # Curriculum Vitae
@@ -7,3 +8,4 @@ title: "CV"
 You can download my full CV in PDF format here:
 
 [Download my CV (PDF)](/assets/pdf/cv_ritter.pdf)
+
