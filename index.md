@@ -21,7 +21,7 @@ title: "Home"
 
 ## About me
 
-I am a PhD student in Economics at the University of Barcelona, supervised by Vicente Royuela. My research focuses on the economics of migration—linguistic barriers, digital/green transitions and environmental migration—and regional economics & spatial analysis with causal-inference methods.
+I am a PhD student in Economics at the University of Barcelona. My research focuses on the economics of migration—linguistic barriers, digital/green transitions and environmental migration—and regional economics & spatial analysis with causal-inference methods.
 
 ## Contact
 
