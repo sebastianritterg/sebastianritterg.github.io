@@ -5,5 +5,5 @@ theme: minima
 header_pages:
   - index.md
   - research.md
-  - conferences-and-seminars.md
+  - conferences.md
   - cv.md
