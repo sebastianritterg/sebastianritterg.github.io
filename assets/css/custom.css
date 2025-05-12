@@ -1,9 +1,21 @@
-/* Sólo a partir de 768 px (tablet+ / escritorio) */
 @media screen and (min-width: 768px) {
-  /* .wrapper es el contenedor principal de Minima */
+  /* A más ancho de pantalla, content en 1200px */
   .wrapper {
-    max-width: 1200px;    /* ajusta este valor a tu gusto */
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Aquí añades tus reglas para la foto */
+  .site-header .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top center;
+    /* transform: rotate(-3deg); */
+  }
+
+  .site-header .author-profile {
+    margin-right: 2rem;
   }
 }
