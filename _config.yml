@@ -2,12 +2,9 @@ title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
 theme: minima
 
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Conferences and Seminars"
-    url: "/conferences/"
-  - title: "CV"
-    url: "/cv/"
+minima:
+  nav_pages:
+    - index.md        # Home
+    - research.md     # Research
+    - conferences.md  # Conferences and Seminars
+    - cv.md           # CV
