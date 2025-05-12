@@ -1,0 +1,9 @@
+/* Sólo a partir de 768 px (tablet+ / escritorio) */
+@media screen and (min-width: 768px) {
+  /* .wrapper es el contenedor principal de Minima */
+  .wrapper {
+    max-width: 1200px;    /* ajusta este valor a tu gusto */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
