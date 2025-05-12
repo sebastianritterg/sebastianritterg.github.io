@@ -2,9 +2,8 @@ title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
 theme: minima
 
-minima:
-  nav_pages:
-    - index.md        # Home
-    - research.md     # Research
-    - conferences.md  # Conferences and Seminars
-    - cv.md           # CV
+header_pages:
+  - index.md
+  - research.md
+  - conferences-and-seminars.md
+  - cv.md
