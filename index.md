@@ -8,8 +8,8 @@ title: "Home"
   alt="Profile photo"
   style="
     float: left;
-    width: 190px;
-    height: 190px;
+    width: 210px;
+    height: 210px;
     object-fit: cover;
     border-radius: 8px;
     margin: -0.5rem 1rem 1rem 0;
