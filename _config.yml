@@ -4,8 +4,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Menú principal
-nav:
+
   - name: Home
     link: /
   - name: Research
