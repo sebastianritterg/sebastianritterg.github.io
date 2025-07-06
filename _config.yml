@@ -1,9 +1,18 @@
 title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
 theme: minima
+plugins:
+  - jekyll-feed
 
-header_pages:
-  - index.md
-  - research.md
-  - conferences.md
-  - cv.md
+# Menú principal
+nav:
+  - name: Home
+    link: /
+  - name: Research
+    link: /research/
+  - name: Blog
+    link: /blog/
+  - name: Conferences and Seminars
+    link: /conferences/
+  - name: CV
+    link: /cv/
