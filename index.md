@@ -8,8 +8,8 @@ title: "Home"
   alt="Profile photo"
   style="
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     object-fit: cover;
     border-radius: 8px;
     margin: -0.5rem 1rem 1rem 0;
@@ -21,7 +21,7 @@ title: "Home"
 
 ## About me
 
-I am a PhD student in Economics at the University of Barcelona. My research focuses on the economics of migration—linguistic barriers, digital/green transitions and environmental migration—and regional economics & spatial analysis with causal-inference methods.
+I am a PhD student in Economics and researcher in the Regional Quantitative Group (AQR) at the University of Barcelona. My research focuses on the economics of migration—linguistic barriers, digital/green transitions and environmental migration—and regional economics & spatial analysis with causal-inference methods.
 
 ## Contact
 
