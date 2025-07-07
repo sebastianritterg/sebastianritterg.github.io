@@ -135,31 +135,33 @@ Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regi
 1. Seleccionamos un **pool de donantes**: regiones que no se partieron en 2007.  
 2. Calculamos un **promedio ponderado** de esas regiones (el “synthetic control”) de modo que, en el **periodo pre‑reforma**, su trayectoria de PIB per cápita imite lo más fielmente posible la de la **región tratada**.
 
-Matemáticamente, para la región tratada \(T\) en el tiempo \(t\), el contrafactual \(\widehat{Y}_{Tt}(0)\) es
+Matemáticamente, para la región tratada $T$ en el tiempo $t$, el contrafactual $\widehat{Y}_{Tt}(0)$ es
 
-\[
+$$
 \widehat{Y}_{Tt}(0)
 = \sum_{i=1}^{N-1} \omega_i \, Y_{it},
 \quad
 \omega_i \ge 0,\;
 \sum_{i=1}^{N-1} \omega_i = 1,
-\]
+$$
 
-donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia
+donde los pesos $\omega_i$ se eligen para minimizar la discrepancia
 
-\[
+$$
 Y_{Tt} 
 \;\approx\;
-\sum_{i=1}^{N-1} \omega_i \, Y_{it}
+\sum_{i=1}^{N-1} \omega_i \, Y_{it},
 \quad
 \forall \; t < T_0.
-\]
+$$
 
 Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es simplemente
 
-\[
-Y_{T,\text{post}} \;-\; \widehat{Y}_{T,\text{post}}(0).
-\]
+$$
+Y_{T,\mathrm{post}}
+\;-\;
+\widehat{Y}_{T,\mathrm{post}}(0).
+$$
 
 ![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)  
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
