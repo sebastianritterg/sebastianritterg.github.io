@@ -141,32 +141,31 @@ Matemáticamente, el contrafactual viene dado por:
 $$
 \widehat{Y}_{Tt}(0)
 =
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
+\sum_{i=1}^{N-1}\omega_{i}\,Y_{it},
 \quad
-\omega_{i} \ge 0,
+\omega_{i}\ge 0,
 \quad
-\sum_{i=1}^{N-1}\omega_{i} = 1
+\sum_{i=1}^{N-1}\omega_{i}=1
 $$
-{% endraw %}
 
-
-donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
+donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el periodo pre‑reforma:
 
 $$
 Y_{Tt}
 \;\approx\;
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
+\sum_{i=1}^{N-1}\omega_{i}\,Y_{it},
 \quad
-\forall \; t < T_{0}.
+\forall\,t < T_0.
 $$
 
-Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es:
+Luego el efecto causal es:
 
 $$
 Y_{T,\mathrm{post}}
-\;-\;
+-
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
+{% endraw %}
 
 
 ![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)  
