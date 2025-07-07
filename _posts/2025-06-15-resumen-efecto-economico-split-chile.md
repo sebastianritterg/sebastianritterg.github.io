@@ -139,19 +139,20 @@ Matemáticamente, el contrafactual viene dado por:
 
 $$
 \widehat{Y}_{Tt}(0)
-\;=\;
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
+=
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
 \quad
-\omega_{i} \ge 0,\quad
-\sum_{i=1}^{N-1}\omega_{i} = 1.
+\omega_{i} \ge 0,
+\quad
+\sum_{i=1}^{N-1}\omega_{i} = 1
 $$
 
-donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia:
+donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
 
 $$
 Y_{Tt}
 \;\approx\;
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
+\sum_{i=1}^{N-1}\omega_{i}\,Y_{it},
 \quad
 \forall\;t < T_{0}.
 $$
