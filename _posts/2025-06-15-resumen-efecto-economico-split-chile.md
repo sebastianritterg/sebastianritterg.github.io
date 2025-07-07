@@ -178,7 +178,7 @@ El **contrafactual** se construye mediante la **tendencia del control**: proyect
 
 Por contraste, una estimación naïve muy común—comparar únicamente el valor del PIB del tratado con el promedio de controles en el periodo _post_—corresponde a la diferencia _B − D_ (barra roja), que incluye un sesgo igual a _S − D_ (flecha azul).
 
-![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/did_bias_schematic.png)
+![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/esquema_did.png)
 
 *Figura 2. Sesgo en DiD:  
 – Estimación naïve _(B−D)_ en rojo.  
