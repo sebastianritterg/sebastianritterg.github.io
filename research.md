@@ -15,5 +15,6 @@ permalink: /research/
 
 # Work in Progress
 
-- **“Twin Transition effects on human (Im)mobility: a multilevel model analysis.”**  
-- **“Do language policies affect internal migration in a multilingual country?”**  
+- **“Twin Transition effects on human (Im)mobility: a multilevel model analysis.”** Joint with Vicente Royuela.
+- **“Measuring the Green Transition in Europe: A Multidimensional Index for NUTS2 Regions.”**  Joint with Vicente Royuela.
+- **“Do language policies affect internal migration in a multilingual country?”**  Joint with Antonio di Paolo, Raul Ramos & Vicente Royuela.
