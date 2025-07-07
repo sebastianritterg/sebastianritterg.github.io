@@ -139,21 +139,22 @@ Matemáticamente, el contrafactual viene dado por:
 
 $$
 \widehat{Y}_{Tt}(0)
-\;=\;
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
+=
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
 \quad
-\omega_{i} \ge 0,\quad
+\omega_{i} \ge 0,
+\quad
 \sum_{i=1}^{N-1}\omega_{i} = 1.
 $$
 
-donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia:
+donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
 
 $$
 Y_{Tt}
 \;\approx\;
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
 \quad
-\forall\;t < T_{0}.
+\forall \; t < T_{0}.
 $$
 
 Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es:
@@ -163,6 +164,7 @@ Y_{T,\mathrm{post}}
 \;-\;
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
+
 
 ![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)  
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
