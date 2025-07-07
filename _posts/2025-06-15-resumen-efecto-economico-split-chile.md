@@ -170,7 +170,7 @@ Y_{T,\mathrm{post}}
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
 
-![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="80%" style="display:block; margin:0 auto;" }
+![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="60%" style="display:block; margin:0 auto;" }
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
 
 Con Synthetic Control obtenemos un contrafactual robusto para cada región dividida, que luego validamos y complementamos con DiD para aislar definitivamente el impacto de la reforma territorial sobre la actividad economica.
@@ -221,6 +221,27 @@ donde:
 
 En muchos casos (como lo es en este paper) es necesario la inclusion de variables de control cuando se sospecha que no existen tendencias paralellas, cuando existen variables que influyen tanto a la asignacion del tratamiento y al outcome (confounders) o cuando exosten justificaciones teoricas para hacerlo. En este paper se incluyen controles mediante un metodo conocido como "Entropy Balance", asi como tambien mediante un metodo doblemente robusto de diferencias en diferencias (Sant’Anna & Zhao, 2020).
 
+**¿Por qué dos métodos?**
+
+Nuestro objetivo **central** es estimar el efecto sobre el **PIB regional**, pero el PIB per cápita se publica **solo** a nivel de región completa (antes de 2007, Tarapacá+Arica y Los Lagos+Los Ríos).  
+Por ello, **primero** aplicamos **Synthetic Control** a esos dos agregados para recuperar un contrafactual robusto de **PIB per cápita**.  
+
+A continuación trabajamos con datos **municipales** de **ventas privadas** (SII) como proxy de actividad económica, porque:  
+1. El PIB municipal no está disponible.  
+2. Con esas ventas proxies podemos usar DiD y event studies para analizar heterogeneidades a nivel de municipio.
+
+El siguiente gráfico muestra lo fuerte que es la relación entre PIB regional y ventas municipales agregadas a nivel de región:
+
+![Log de PIB per cápita vs Log de ventas privadas (Agregado regional)](/assets/blog_images/figure_A2.png){: width="60%" style="display:block; margin:0 auto;" }
+
+*Figura A2. Correlación entre el logaritmo de ventas privadas y el logaritmo de PIB per cápita a nivel regional. Fuente: datos SII y Banco Central.*
+
 ---
+
+## 5. Resultados
+
+### 5.1 Synthetic Control sobre PIB per cápita regional
+…
+
 
 
