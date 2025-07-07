@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resumen en español:The economic effect of splitting a region in a centralized country: A case from Chile"
+title: "Resumen en español: The economic effect of splitting a region in a centralized country: A case from Chile"
 date: 2025-06-15 10:00:00 -0400
 categories: [papers, español]
 lang: es
@@ -112,6 +112,82 @@ Este bajo nivel de descentralización hace de Chile un caso especialmente intere
 | Brasil | 1988           | 21.32  |
 | India  | 2000           | 35.97  |
 | Chile  | 2007           | 4.00   |
+
+
+---
+## Metodología
+
+Al estudiar el efecto causal de la división de regiones en Chile enfrentamos un **problema central** de cualquier evaluación de políticas: **el contrafactual ausente**. Es decir, nunca podremos observar cómo habría evolucionado la actividad economica en las nuevas regiones y en las ciudades de Valdivia, La Unión, Arica o Putre **si no se hubiera producido la reforma territorial**.  
+
+### ¿Por qué no basta un “antes vs. después”?
+
+Una aproximación común es comparar directamente el PIB o las ventas privadas de una ciudad **antes** y **después** de la reforma. Sin embargo, esa comparación **no** aísla el efecto de la política porque:
+- **Tendencias temporales**: puede haber un crecimiento o caída en el periodo _post_ que nada tenga que ver con la reforma, sino con ciclos económicos generales.  
+- **Choques externos**: factores como crisis globales, cambios en precios de commodities o políticas nacionales afectan a todas las regiones.  
+- **Omisión de variables**: variables inobservables (capacidad institucional, capital humano, inversiones previas) pueden distorsionar la evolución.
+
+Sin un **contrafactual** (qué le habría pasado a la región sin la reforma), **no podemos** distinguir el impacto real de la división del simple cambio de tendencia. Es ahi donde entran en juego los nuevos metodos quasi-esperimentales para la deteccion de efectos causales en politicas publicas.
+
+### 1. Synthetic Control
+
+Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regiones), utilizamos el método de **Synthetic Control**:
+
+1. Seleccionamos un **pool de donantes**: regiones que no se partieron en 2007.  
+2. Calculamos un **promedio ponderado** de esas regiones (el “synthetic control”) de modo que, en el **periodo pre‑reforma**, su trayectoria de PIB per cápita imite lo más fielmente posible la de la **región tratada**.
+
+Matemáticamente, para la región tratada \(T\) en el tiempo \(t\), el contrafactual \(\widehat{Y}_{Tt}(0)\) es
+
+\[
+\widehat{Y}_{Tt}(0)
+= \sum_{i=1}^{N-1} \omega_i \, Y_{it},
+\quad
+\omega_i \ge 0,\;
+\sum_{i=1}^{N-1} \omega_i = 1,
+\]
+
+donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia
+
+\[
+Y_{Tt} 
+\;\approx\;
+\sum_{i=1}^{N-1} \omega_i \, Y_{it}
+\quad
+\forall \; t < T_0.
+\]
+
+Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es simplemente
+
+\[
+Y_{T,\text{post}} \;-\; \widehat{Y}_{T,\text{post}}(0).
+\]
+
+![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)  
+*Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
+
+Con Synthetic Control obtenemos un contrafactual robusto para cada región dividida, que luego validamos y complementamos con DiD para aislar definitivamente el impacto de la reforma territorial sobre la actividad economica.  
+
+### 2. Diferencias en diferencias (DiD)
+
+El método de **Diferencias en Diferencias** (DiD) parte de comparar las tendencias de un **grupo tratado** (las regiones nuevas) y un **grupo de control** (regiones similares que no cambian) antes y después de la intervención. Su hipótesis clave es:
+
+> **Tendencias paralelas:** en ausencia de la reforma, la **brecha** entre tratado y control se **mantiene constante** en el tiempo.
+
+Si esta “línea paralela” se cumple en el período _pre_, entonces cualquier **desviación** en el _post_ (descontado el cambio observado en el control) se atribuye al **tratamiento**.  
+
+El **contrafactual** se construye mediante la **tendencia del control**: proyectamos esa línea punteada hasta el periodo _post_ para estimar qué le habría pasado al tratado sin reforma. El **efecto causal** real es la diferencia entre el valor observado _B_ y ese contrafactual _S_ (barra negra).  
+
+Por contraste, una estimación naïve muy común—comparar únicamente el valor del PIB del tratado con el promedio de controles en el periodo _post_—corresponde a la diferencia _B − D_ (barra roja), que incluye un sesgo igual a _S − D_ (flecha azul).
+
+![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/did_bias_schematic.png)
+
+*Figura 2. Sesgo en DiD:  
+– Estimación naïve _(B−D)_ en rojo.  
+– Contrafactual sintético _(S)_ trazado con línea punteada gris.  
+– Efecto causal real _(B−S)_ en negro.  
+– Sesgo _(S−D)_ en azul.*  
+
+---
+
 
 
 ---
