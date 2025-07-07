@@ -5,6 +5,11 @@ date: 2025-06-15 10:00:00 -0400
 categories: [papers, español]
 lang: es
 ---
+<!-- 1) Inyecta el script de MathJax aquí: -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  async>
+</script>
 
 ## Introducción
 
@@ -182,7 +187,7 @@ El **contrafactual** se construye mediante la **tendencia del control**: proyect
 
 Por contraste, una estimación naïve muy común—comparar únicamente el valor del PIB del tratado con el promedio de controles en el periodo _post_—corresponde a la diferencia _B − D_ (barra roja), que incluye un sesgo igual a _S − D_ (flecha azul).
 
-![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/esquema_did.png)
+![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/esquema_did.png){: width="60%" style="display:block; margin:0 auto;" }
 
 *Figura 2. Sesgo en DiD:
 – Estimación naïve _(B−D)_ en rojo.
