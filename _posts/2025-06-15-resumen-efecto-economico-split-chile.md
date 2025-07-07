@@ -136,6 +136,7 @@ Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regi
 2. Calculamos un **promedio ponderado** de esas regiones (el “synthetic control”) de modo que, en el **periodo pre‑reforma**, su trayectoria de PIB per cápita imite lo más fielmente posible la de la **región tratada**.
 
 Matemáticamente, el contrafactual viene dado por:
+
 $$
 \widehat{Y}_{Tt}(0)
 \;=\;
@@ -144,19 +145,8 @@ $$
 \omega_{i} \ge 0,\quad
 \sum_{i=1}^{N-1}\omega_{i} = 1.
 $$
+
 donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia:
-
-Test1:
-
-$$
-\omega_i
-$$
-
-Test2:
-
-$$
-\sum_{i=1}^{N-1} \omega_i
-$$
 
 $$
 Y_{Tt}
