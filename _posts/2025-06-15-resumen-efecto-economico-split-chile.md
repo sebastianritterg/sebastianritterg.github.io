@@ -242,7 +242,7 @@ El siguiente gráfico muestra lo fuerte que es la relación entre PIB regional y
 
 ## Resultados
 
-### 5.1. Analisis agregado (PIB) a nivel regional
+### 1. Analisis agregado (PIB) a nivel regional
 
 Antes de estimar el gap post‑reforma, necesitamos construir el contrafactual ponderando cada región donante. La **Figura 4** muestra la distribución de pesos para las dos regiones tratadas:
 
@@ -266,9 +266,7 @@ Para explorar esta hipótesis, pasamos a un modelo de **Diferencias en Diferenci
 Como mostramos en el material suplementario del artículo original, obtuvimos **efectos nulos** también en este ejercicio agregado. Dado este resultado, avanzamos a examinar la **heterogeneidad** del impacto entre región madre y región creada para los casos del norte y sur de Chile.
 ---
 
-### 5.2. Efectos heterogeneos entre regiones
-
-### 3. Efectos heterogéneos a nivel regional (DiD)
+### 2. Efectos heterogeneos entre regiones
 
 A continuación resumimos los resultados del estimador de Diferencias en Diferencias para cada “madre + creada”. Las columnas corresponden a tres especificaciones:  
 1. Two way fixed effects (TWFE) sin covariables,  
@@ -305,4 +303,17 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) TWFE; (2) TWFE + EB; (3) DRDiD.
 
+En las Tablas 5 y 6, los resultados de DiD indican:
 
+- **Los Ríos:** en ninguno de los tres modelos el coeficiente de interacción es significativo, por lo que **no hallamos evidencia** de un cambio en la actividad tras la reforma.  
+- **Arica y Tarapacá:** los efectos estimados pierden significancia al incorporar controles más estrictos (Entropy Balance y DRDiD), lo que sugiere ausencia de impacto duradero.  
+- **Los Lagos:** presenta un coeficiente negativo y robusto (≈ –0,10), equivalente a una caída de alrededor del 10 % en la actividad económica.
+
+En conjunto, sólo Los Lagos muestra un efecto adverso consistente; el resto de las regiones no experimenta variaciones significativas en el periodo post‑reforma.
+Los resultados anteriores deben ser tomados con precaucion dado que siempre puede existir algun tipo de shock especifico que haya impactado a alguna de las regiones. Por ello, siempre este tipo de analisis debe incorporar un analisis de robustes de los resultados, lo que ilustramos a continuacion.
+
+###  Robustes de los resultados
+
+### Estatus administrativos y mecanismos
+
+## Discusion y lecciones de la investigacion
