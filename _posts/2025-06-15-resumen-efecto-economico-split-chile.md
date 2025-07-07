@@ -137,45 +137,32 @@ Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regi
 
 Matemáticamente, el contrafactual viene dado por:
 
-{% raw %}
-
 $$
 \widehat{Y}_{Tt}(0)
-=
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
+\;=\;
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
 \quad
-\omega_{i} \ge 0,
-\quad
-\sum_{i=1}^{N-1}\omega_{i} = 1
+\omega_{i} \ge 0,\quad
+\sum_{i=1}^{N-1}\omega_{i} = 1.
 $$
 
-{% endraw %}
-
-donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
-
-{% raw %}
+donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia:
 
 $$
 Y_{Tt}
 \;\approx\;
-\sum_{i=1}^{N-1} \omega_{i}\,Y_{it},
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
 \quad
 \forall\;t < T_{0}.
 $$
 
-{% endraw %}
-
 Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es:
-
-{% raw %}
 
 $$
 Y_{T,\mathrm{post}}
 \;-\;
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
-
-{% endraw %}
 
 ![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)  
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
