@@ -146,6 +146,7 @@ $$
 \sum_{i=1}^{N-1}\omega_{i} = 1.
 $$
 
+
 donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia:
 
 $$
