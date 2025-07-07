@@ -135,6 +135,7 @@ Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regi
 1. Seleccionamos un **pool de donantes**: regiones que no se partieron en 2007.  
 2. Calculamos un **promedio ponderado** de esas regiones (el “synthetic control”) de modo que, en el **periodo pre‑reforma**, su trayectoria de PIB per cápita imite lo más fielmente posible la de la **región tratada**.
 
+{% raw %}
 Matemáticamente, el contrafactual viene dado por:
 
 $$
@@ -144,8 +145,10 @@ $$
 \quad
 \omega_{i} \ge 0,
 \quad
-\sum_{i=1}^{N-1}\omega_{i} = 1.
+\sum_{i=1}^{N-1}\omega_{i} = 1
 $$
+{% endraw %}
+
 
 donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
 
