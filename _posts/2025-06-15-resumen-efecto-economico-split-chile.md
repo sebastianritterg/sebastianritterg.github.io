@@ -167,7 +167,6 @@ Y_{T,\mathrm{post}}
 $$
 {% endraw %}
 
-
 ![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)  
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
 
