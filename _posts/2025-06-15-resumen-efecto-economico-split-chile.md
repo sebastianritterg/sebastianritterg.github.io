@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resumen en español: The economic effect of splitting a region in a centralized country: A case from Chile"
+title: "Resumen en español paper "The economic effect of splitting a region in a centralized country: A case from Chile" "
 date: 2025-06-15 10:00:00 -0400
 categories: [papers, español]
 lang: es
@@ -185,10 +185,6 @@ Por contraste, una estimación naïve muy común—comparar únicamente el valor
 – Contrafactual sintético _(S)_ trazado con línea punteada gris.  
 – Efecto causal real _(B−S)_ en negro.  
 – Sesgo _(S−D)_ en azul.*  
-
----
-
-
 
 ---
 
