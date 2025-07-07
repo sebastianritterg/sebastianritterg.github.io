@@ -1,12 +1,14 @@
 title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
 theme: minima
-plugins:
-  - jekyll-feed
-  
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+  
+plugins:
+  - jekyll-feed
+  
+
 
 header_pages:
   - index.md
