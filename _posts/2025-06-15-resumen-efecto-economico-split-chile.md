@@ -138,25 +138,25 @@ Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regi
 Matemáticamente, el contrafactual viene dado por:
 
 $$
-\widehat{Y}_{T t}(0)
+\widehat{Y}_{Tt}(0)
 \;=\;
 \sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
 \quad
-\omega_{i} \ge 0,\;
+\omega_{i} \ge 0,\quad
 \sum_{i=1}^{N-1}\omega_{i} = 1.
 $$
 
-donde los pesos $\omega_i$ se eligen para minimizar la discrepancia
+donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia:
 
 $$
-Y_{Tt} 
+Y_{Tt}
 \;\approx\;
-\sum_{i=1}^{N-1} \omega_i \, Y_{it},
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
 \quad
-\forall \; t < T_0.
+\forall\;t < T_{0}.
 $$
 
-Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es simplemente
+Luego aplicamos esos mismos pesos **post‑2007** y el **efecto causal** estimado es:
 
 $$
 Y_{T,\mathrm{post}}
