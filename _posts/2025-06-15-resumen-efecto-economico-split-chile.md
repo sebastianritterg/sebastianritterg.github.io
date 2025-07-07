@@ -128,21 +128,21 @@ Una aproximación común es comparar directamente el PIB o las ventas privadas d
 
 Sin un **contrafactual** (qué le habría pasado a la región sin la reforma), **no podemos** distinguir el impacto real de la división del simple cambio de tendencia. Es ahi donde entran en juego los nuevos metodos quasi-esperimentales para la deteccion de efectos causales en politicas publicas.
 
-### 1. Synthetic Control
+### 1. Control Sintetico
 
 Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regiones), utilizamos el método de **Synthetic Control**:
 
 1. Seleccionamos un **pool de donantes**: regiones que no se partieron en 2007.  
 2. Calculamos un **promedio ponderado** de esas regiones (el “synthetic control”) de modo que, en el **periodo pre‑reforma**, su trayectoria de PIB per cápita imite lo más fielmente posible la de la **región tratada**.
 
-Matemáticamente, para la región tratada $T$ en el tiempo $t$, el contrafactual $\widehat{Y}_{Tt}(0)$ es
+Matemáticamente, para la región tratada \(T\) en el tiempo \(t\), el contrafactual \(\widehat{Y}_{Tt}(0)\) es
 
 $$
 \widehat{Y}_{Tt}(0)
 = \sum_{i=1}^{N-1} \omega_i \, Y_{it},
 \quad
 \omega_i \ge 0,\;
-\sum_{i=1}^{N-1} \omega_i = 1,
+\sum_{i=1}^{N-1} \omega_i = 1
 $$
 
 donde los pesos $\omega_i$ se eligen para minimizar la discrepancia
