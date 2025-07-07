@@ -100,9 +100,10 @@ La **descentralización fiscal** —la transferencia de potestades de recaudaci�
 
 Chile es, junto con Costa Rica y Guatemala, uno de los países más centralizados de América Latina. El **Índice de Autoridad Regional (RAI)** mide la autonomía administrativa, fiscal y legislativa de los gobiernos subnacionales. En la siguiente figura se ve cómo Chile (en rojo) queda muy rezagado respecto de otros países de la región:
 
+
 ![RAI index](/assets/blog_images/rai_index.png){: width="80%" style="display:block; margin:0 auto;" }
 
-*Figura 1. Índice de Autoridad Regional (RAI) para 18 países de América Latina. Valores más altos indican mayor autonomía subnacional. Fuente: Hooghe, Marks & Schakel (2016).*
+<small>**Figura 1.** Índice de Autoridad Regional (RAI) para 18 países de América Latina. Valores más altos indican mayor autonomía subnacional. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
 
 > **Nota:**
 > En este post omitimos el detalle del contexto administrativo y político tras la creación de las regiones de Arica y Parinacota y Los Ríos. Para una discusión completa de esos aspectos, consulta la Sección 3 del artículo original.
@@ -234,7 +235,8 @@ El siguiente gráfico muestra lo fuerte que es la relación entre PIB regional y
 
 ![Log de PIB per cápita vs Log de ventas privadas (Agregado regional)](/assets/blog_images/figure_A2.png){: width="60%" style="display:block; margin:0 auto;" }
 
-*Figura A2. Correlación entre el logaritmo de ventas privadas y el logaritmo de PIB per cápita a nivel regional. Fuente: datos SII y Banco Central.*
+<small>**Figura A2.** Correlación entre el logaritmo de ventas privadas y el logaritmo de PIB per cápita a nivel regional. Fuente: datos SII y Banco Central. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
+
 
 ---
 
@@ -246,13 +248,13 @@ Antes de estimar el gap post‑reforma, necesitamos construir el contrafactual p
 
 ![Pesos del Synthetic Control para Tarapacá y Los Lagos](/assets/blog_images/figure_4.png){: width="60%" style="display:block; margin:0 auto;" }
 
-*Figura 4. Pesos asignados a cada región del “pool” de donantes en el synthetic control. A la izquierda, Tarapacá; a la derecha, Los Lagos. Las regiones en rojo son las tratadas (no forman parte del pool). El color más oscuro indica mayor peso.*
+<small>**Figura 4.** Pesos asignados a cada región del “pool” de donantes en el synthetic control. A la izquierda, Tarapacá; a la derecha, Los Lagos. Las regiones en rojo son las tratadas (no forman parte del pool). El color más oscuro indica mayor peso. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
 
 A continuación, la **Figura 5** presenta la evolución del logaritmo de PIB per cápita para cada región tratada (línea sólida) frente a su contrafactual sintético (línea punteada), y la brecha (gap) anual:
 
 ![Evolución del PIB per cápita y gap Synthetic Control para Los Lagos y Tarapacá](/assets/blog_images/figure_5.png){: width="60%" style="display:block; margin:0 auto;" }
 
-*Figura 5. Panel superior: logaritmo de PIB per cápita —región tratada (línea continua) vs. synthetic control (línea punteada)—. Panel inferior: gap = \(Y_{Tt} - \widehat Y_{Tt}(0)\) por año. La línea vertical marca 2007, año de la reforma.*
+<small>**Figura 5.** Panel superior: logaritmo de PIB per cápita —región tratada (línea continua) vs. synthetic control (línea punteada)—. Panel inferior: gap = \(Y_{Tt} - \widehat Y_{Tt}(0)\) por año. La línea vertical marca 2007, año de la reforma. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
 
 - **Los Lagos:** tras 2007 el gap se mantiene cercano a cero (varía entre –0.02 y 0.00), lo que sugiere **ausencia de un efecto significativo** sobre el PIB per cápita.  
 - **Tarapacá:** el gap post‑reforma oscila alrededor de cero (–0.05 a +0.05), sin un patrón consistente de ganancia o pérdida.
@@ -265,4 +267,40 @@ Como mostramos en el material suplementario del artículo original, obtuvimos **
 ---
 
 ### 5.2. Efectos heterogeneos entre regiones
+
+### 3. Efectos heterogéneos a nivel regional (DiD)
+
+A continuación resumimos los resultados del estimador de Diferencias en Diferencias para cada “madre + creada”. Las columnas corresponden a tres especificaciones:  
+1. Two way fixed effects (TWFE) sin covariables,  
+2. TWFE + Entropy Balance (EB),  
+3. DR‑DiD (Sant’Anna & Zhao, 2020).
+
+**Tabla 5.** Resultados del estimador de diferencias en diferencias, Los Ríos y Los Lagos, 2005–2014.  
+_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+
+| Variable | Los Ríos Model 1 | Model 2 | Model 3 | Los Lagos Model 1 | Model 2 | Model 3 |
+|:---------|:----------------:|:-------:|:-------:|:-----------------:|:-------:|:-------:|
+| ATT      | 0.031            | 0.013   | 0.034   | −0.106            | −0.111  | −0.157  |
+| se       | 0.024            | 0.026   | 0.024   | 0.024             | 0.051   | 0.029   |
+| p‑val    | 0.223            | 0.631   | 0.152   | 0.001             | 0.049   | 0.000   |
+| Covariates | NO             | EB      | YES     | NO                | EB      | YES     |
+| N        | 2900             | 2900    | 2900    | 3070              | 3070    | 3070    |
+> **Nota:** Errores estándar agrupados al nivel regional.  
+> (1) TWFE; (2) TWFE + EB; (3) DRDiD.
+---
+
+**Tabla 6.** Resultados del estimador de diferencias en diferencias, Arica y Tarapacá, 2005–2014.  
+_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+
+| Variable | Arica Model 1 | Model 2 | Model 3 | Tarapacá Model 1 | Model 2 | Model 3 |
+|:---------|:-------------:|:-------:|:-------:|:----------------:|:-------:|:-------:|
+| ATT      | 0.057         | 0.014   | 0.055   | 0.110            | 0.216   | 0.165   |
+| se       | 0.024         | 0.040   | 0.051   | 0.024            | 0.144   | 0.137   |
+| p‑val    | 0.038         | 0.722   | 0.281   | 0.001            | 0.159   | 0.229   |
+| Covariates | NO          | YES     | YES     | NO               | YES     | YES     |
+| N        | 2810          | 2800    | 2800    | 2830             | 2830    | 2830    |
+
+> **Nota:** Errores estándar agrupados al nivel regional.  
+> (1) TWFE; (2) TWFE + EB; (3) DRDiD.
+
 
