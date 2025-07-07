@@ -101,7 +101,7 @@ La **descentralización fiscal** —la transferencia de potestades de recaudaci�
 Chile es, junto con Costa Rica y Guatemala, uno de los países más centralizados de América Latina. El **Índice de Autoridad Regional (RAI)** mide la autonomía administrativa, fiscal y legislativa de los gobiernos subnacionales. En la siguiente figura se ve cómo Chile (en rojo) queda muy rezagado respecto de otros países de la región:
 
 
-![RAI index](/assets/blog_images/rai_index.png){: width="80%" style="display:block; margin:0 auto;" }
+![RAI index](/assets/blog_images/rai_index.png){: width="60%" style="display:block; margin:0 auto;" }
 
 <small>**Figura 1.** Índice de Autoridad Regional (RAI) para 18 países de América Latina. Valores más altos indican mayor autonomía subnacional. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
 
@@ -171,7 +171,7 @@ Y_{T,\mathrm{post}}
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
 
-![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="60%" style="display:block; margin:0 auto;" }
+![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="70%" style="display:block; margin:0 auto;" }
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
 
 Con Synthetic Control obtenemos un contrafactual robusto para cada región dividida, que luego validamos y complementamos con DiD para aislar definitivamente el impacto de la reforma territorial sobre la actividad economica.
@@ -246,13 +246,13 @@ El siguiente gráfico muestra lo fuerte que es la relación entre PIB regional y
 
 Antes de estimar el gap post‑reforma, necesitamos construir el contrafactual ponderando cada región donante. La **Figura 4** muestra la distribución de pesos para las dos regiones tratadas:
 
-![Pesos del Synthetic Control para Tarapacá y Los Lagos](/assets/blog_images/figure_4.png){: width="60%" style="display:block; margin:0 auto;" }
+![Pesos del Synthetic Control para Tarapacá y Los Lagos](/assets/blog_images/figure_4.png){: width="70%" style="display:block; margin:0 auto;" }
 
 <small>**Figura 4.** Pesos asignados a cada región del “pool” de donantes en el synthetic control. A la izquierda, Tarapacá; a la derecha, Los Lagos. Las regiones en rojo son las tratadas (no forman parte del pool). El color más oscuro indica mayor peso. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
 
 A continuación, la **Figura 5** presenta la evolución del logaritmo de PIB per cápita para cada región tratada (línea sólida) frente a su contrafactual sintético (línea punteada), y la brecha (gap) anual:
 
-![Evolución del PIB per cápita y gap Synthetic Control para Los Lagos y Tarapacá](/assets/blog_images/figure_5.png){: width="60%" style="display:block; margin:0 auto;" }
+![Evolución del PIB per cápita y gap Synthetic Control para Los Lagos y Tarapacá](/assets/blog_images/figure_5.png){: width="70%" style="display:block; margin:0 auto;" }
 
 <small>**Figura 5.** Panel superior: logaritmo de PIB per cápita —región tratada (línea continua) vs. synthetic control (línea punteada)—. Panel inferior: gap = \(Y_{Tt} - \widehat Y_{Tt}(0)\) por año. La línea vertical marca 2007, año de la reforma. Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0.</small>
 
@@ -287,6 +287,7 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 | N        | 2900             | 2900    | 2900    | 3070              | 3070    | 3070    |
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) TWFE; (2) TWFE + EB; (3) DRDiD.
+
 ---
 
 **Tabla 6.** Resultados del estimador de diferencias en diferencias, Arica y Tarapacá, 2005–2014.  
