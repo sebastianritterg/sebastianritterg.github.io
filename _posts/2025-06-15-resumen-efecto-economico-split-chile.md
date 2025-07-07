@@ -95,7 +95,7 @@ La **descentralización fiscal** —la transferencia de potestades de recaudaci�
 
 Chile es, junto con Costa Rica y Guatemala, uno de los países más centralizados de América Latina. El **Índice de Autoridad Regional (RAI)** mide la autonomía administrativa, fiscal y legislativa de los gobiernos subnacionales. En la siguiente figura se ve cómo Chile (en rojo) queda muy rezagado respecto de otros países de la región:
 
-![Índice de Autoridad Regional (RAI) en América Latina. Chile destacado en rojo.](/assets/blog_images/rai_index.png)
+![Índice de Autoridad Regional (RAI) en América Latina. Chile destacado en rojo.](/assets/blog_images/rai_index.png){: width="80%"}
 
 *Figura 1. Índice de Autoridad Regional (RAI) para 18 países de América Latina. Valores más altos indican mayor autonomía subnacional. Fuente: Hooghe, Marks & Schakel (2016).*
 
@@ -164,7 +164,7 @@ Y_{T,\mathrm{post}}
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
 
-![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)
+![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="80%"}
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
 
 Con Synthetic Control obtenemos un contrafactual robusto para cada región dividida, que luego validamos y complementamos con DiD para aislar definitivamente el impacto de la reforma territorial sobre la actividad economica.
@@ -181,7 +181,7 @@ El **contrafactual** se construye mediante la **tendencia del control**: proyect
 
 Por contraste, una estimación naïve muy común—comparar únicamente el valor del PIB del tratado con el promedio de controles en el periodo _post_—corresponde a la diferencia _B − D_ (barra roja), que incluye un sesgo igual a _S − D_ (flecha azul).
 
-![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/esquema_did.png)
+![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/esquema_did.png){: width="60%"}
 
 *Figura 2. Sesgo en DiD:
 – Estimación naïve _(B−D)_ en rojo.
