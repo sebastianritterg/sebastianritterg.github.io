@@ -88,8 +88,34 @@ La **descentralización fiscal** —la transferencia de potestades de recaudaci�
 
 3. **Contexto de urbanización y redes**  
    El grado de urbanización previo y la estructura de redes urbanas condicionan el rendimiento de la reforma: las ciudades intermedias y aquellas con menor infraestructura previa suelen beneficiarse más (Kurniewicz et al., 2024; Rodríguez‑Pose & Griffiths, 2021).
+   
+---
+
+## Contexto institucional
+
+Chile es, junto con Costa Rica y Guatemala, uno de los países más centralizados de América Latina. El **Índice de Autoridad Regional (RAI)** mide la autonomía administrativa, fiscal y legislativa de los gobiernos subnacionales. En la siguiente figura se ve cómo Chile (en rojo) queda muy rezagado respecto de otros países de la región:
+
+![Índice de Autoridad Regional (RAI) en América Latina. Chile destacado en rojo.](/assets/blog_images/rai_index.png)
+
+*Figura 1. Índice de Autoridad Regional (RAI) para 18 países de América Latina. Valores más altos indican mayor autonomía subnacional. Fuente: Hooghe, Marks & Schakel (2016).*
+
+> **Nota:**  
+> En este post omitimos el detalle del contexto administrativo y político tras la creación de las regiones de Arica y Parinacota y Los Ríos. Para una discusión completa de esos aspectos, consulta la Sección 3 del artículo original.
+
+Este bajo nivel de descentralización hace de Chile un caso especialmente interesante para estudiar los efectos de dividir regiones, porque las nuevas competencias y recursos parten de una base muy centralizada. Para ilustrar la diferencia, la siguiente tabla muestra los valores RAI de algunos países en el periodo de sus reformas:
+
+**Tabla 2. Valores RAI comparativos de algunos países al momento de sus reformas territoriales**
+
+| País   | Año de reforma | RAI    |
+|:-------|:--------------:|-------:|
+| Italia | 1963           | 10.31  |
+| Brasil | 1988           | 21.32  |
+| India  | 2000           | 35.97  |
+| Chile  | 2007           | 4.00   |
+
 
 ---
+
 
 
 
