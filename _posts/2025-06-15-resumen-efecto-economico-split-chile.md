@@ -285,6 +285,7 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 | p‑val    | 0.223            | 0.631   | 0.152   | 0.001             | 0.049   | 0.000   |
 | Covariates | NO             | EB      | YES     | NO                | EB      | YES     |
 | N        | 2900             | 2900    | 2900    | 3070              | 3070    | 3070    |
+
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) TWFE; (2) TWFE + EB; (3) DRDiD.
 
