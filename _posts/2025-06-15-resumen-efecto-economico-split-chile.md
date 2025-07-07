@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resumen en español:The economic effect of splitting a region in a centralized country: A case from Chile"
-date: 2025-07-07 10:00:00 -0400
+date: 2025-06-15 10:00:00 -0400
 categories: [papers, español]
 lang: es
 ---
