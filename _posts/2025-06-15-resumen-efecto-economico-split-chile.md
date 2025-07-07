@@ -170,7 +170,7 @@ Y_{T,\mathrm{post}}
 \widehat{Y}_{T,\mathrm{post}}(0).
 $$
 
-![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png)
+![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="80%" style="display:block; margin:0 auto;" }
 *Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
 
 Con Synthetic Control obtenemos un contrafactual robusto para cada región dividida, que luego validamos y complementamos con DiD para aislar definitivamente el impacto de la reforma territorial sobre la actividad economica.
@@ -194,3 +194,33 @@ Por contraste, una estimación naïve muy común—comparar únicamente el valor
 – Contrafactual sintético _(S)_ trazado con línea punteada gris.
 – Efecto causal real _(B−S)_ en negro.
 – Sesgo _(S−D)_ en azul.*
+
+Matemáticamente, podemos estimar el efecto de DiD con la siguiente regresión de efectos fijos:
+
+$$
+Y_{it}
+=
+\beta_0
+\;+\;
+\beta_1\,\mathrm{Treat}_i
+\;+\;
+\beta_2\,\mathrm{Post}_t
+\;+\;
+\beta_3\,(\mathrm{Treat}_i \times \mathrm{Post}_t)
+\;+\;
+\varepsilon_{it},
+$$
+
+donde:
+
+- $Y_{it}$ es el outcome de la unidad $i$ en el tiempo $t$ (PIB per cápita, ventas, etc.).  
+- $\mathrm{Treat}_i$ es un indicador que vale 1 si la unidad $i$ está en el grupo tratado (región dividida) y 0 en caso contrario.  
+- $\mathrm{Post}_t$ es un indicador que vale 1 para los periodos **posteriores** a la reforma (2007 en adelante) y 0 para los periodos **anteriores**.  
+- El término de **interacción** $\mathrm{Treat}_i \times \mathrm{Post}_t$ captura el **efecto causal** de la reforma; su coeficiente, $\beta_3$, es la estimación de DiD.  
+- $\varepsilon_{it}$ es el término de error.
+
+En muchos casos (como lo es en este paper) es necesario la inclusion de variables de control cuando se sospecha que no existen tendencias paralellas, cuando existen variables que influyen tanto a la asignacion del tratamiento y al outcome (confounders) o cuando exosten justificaciones teoricas para hacerlo. En este paper se incluyen controles mediante un metodo conocido como "Entropy Balance", asi como tambien mediante un metodo doblemente robusto de diferencias en diferencias (Sant’Anna & Zhao, 2020).
+
+---
+
+
