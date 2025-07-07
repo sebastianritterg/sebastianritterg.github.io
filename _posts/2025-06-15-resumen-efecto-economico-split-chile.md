@@ -138,11 +138,12 @@ Para estimar el **contrafactual** cuando solo hay **pocas unidades** (pocas regi
 Matemáticamente, el contrafactual viene dado por:
 
 $$
-\widehat{Y}_{Tt}(0)
-  = \sum_{i=1}^{N-1} \omega_i\,Y_{it},
-  \quad
-  \omega_i \ge 0,\;
-  \sum_{i=1}^{N-1}\omega_i = 1.
+\widehat{Y}_{T t}(0)
+\;=\;
+\sum_{i=1}^{N-1} \omega_{i}\,Y_{i t},
+\quad
+\omega_{i} \ge 0,\;
+\sum_{i=1}^{N-1}\omega_{i} = 1.
 $$
 
 donde los pesos $\omega_i$ se eligen para minimizar la discrepancia
