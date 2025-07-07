@@ -238,10 +238,31 @@ El siguiente gráfico muestra lo fuerte que es la relación entre PIB regional y
 
 ---
 
-## 5. Resultados
+## Resultados
 
-### 5.1 Synthetic Control sobre PIB per cápita regional
-…
+### 5.1. Analisis agregado (PIB) a nivel regional
 
+Antes de estimar el gap post‑reforma, necesitamos construir el contrafactual ponderando cada región donante. La **Figura 4** muestra la distribución de pesos para las dos regiones tratadas:
 
+![Pesos del Synthetic Control para Tarapacá y Los Lagos](/assets/blog_images/figure_4.png){: width="60%" style="display:block; margin:0 auto;" }
+
+*Figura 4. Pesos asignados a cada región del “pool” de donantes en el synthetic control. A la izquierda, Tarapacá; a la derecha, Los Lagos. Las regiones en rojo son las tratadas (no forman parte del pool). El color más oscuro indica mayor peso.*
+
+A continuación, la **Figura 5** presenta la evolución del logaritmo de PIB per cápita para cada región tratada (línea sólida) frente a su contrafactual sintético (línea punteada), y la brecha (gap) anual:
+
+![Evolución del PIB per cápita y gap Synthetic Control para Los Lagos y Tarapacá](/assets/blog_images/figure_5.png){: width="60%" style="display:block; margin:0 auto;" }
+
+*Figura 5. Panel superior: logaritmo de PIB per cápita —región tratada (línea continua) vs. synthetic control (línea punteada)—. Panel inferior: gap = \(Y_{Tt} - \widehat Y_{Tt}(0)\) por año. La línea vertical marca 2007, año de la reforma.*
+
+- **Los Lagos:** tras 2007 el gap se mantiene cercano a cero (varía entre –0.02 y 0.00), lo que sugiere **ausencia de un efecto significativo** sobre el PIB per cápita.  
+- **Tarapacá:** el gap post‑reforma oscila alrededor de cero (–0.05 a +0.05), sin un patrón consistente de ganancia o pérdida.
+
+En conjunto, estos resultados de **Synthetic Control** muestran que, a nivel regional agregado, la división de Tarapacá y de Los Lagos no generó cambios estadísticamente significativos en el PIB per cápita en las regiones antiguas. La limitacion de este analisis es que puede que el resultado sea producto de un juego de suma cero, en donde por ejemplo la region madre (Tarapaca-Los Lagos) obtienen un efecto negativo y las regiones creadas (Arica, Los Rios) obtienen un efecto positivo. 
+Para explorar esta hipótesis, pasamos a un modelo de **Diferencias en Diferencias** con datos de **ventas privadas** del SII:  
+1. Definimos como “tratadas” las dos antiguas regiones completas —Tarapacá + Arica y Los Lagos + Los Ríos—.  
+2. Estimamos el efecto combinado de la reforma sobre el agregado madre+creada.  
+Como mostramos en el material suplementario del artículo original, obtuvimos **efectos nulos** también en este ejercicio agregado. Dado este resultado, avanzamos a examinar la **heterogeneidad** del impacto entre región madre y región creada para los casos del norte y sur de Chile.
+---
+
+### 5.2. Efectos heterogeneos entre regiones
 
