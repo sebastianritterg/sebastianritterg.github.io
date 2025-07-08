@@ -380,8 +380,6 @@ Tras la reforma, Valdivia y Arica pasaron a ser capitales regionales, mientras q
   - **Putre**, ya capital provincial antes de 2007, no muestra efectos robustos.
 
 ## Discusion y lecciones de la investigacion
-## 6. Discusión y conclusiones
-
 En este trabajo evaluamos el efecto económico (PIB per cápita y ventas privadas) de la reforma territorial de 2007 que dividió dos regiones en el norte y el sur de Chile. Nuestro caso de estudio es novedoso por las características institucionales y socioeconómicas del país.
 
 1. **¿Fue beneficiosa la división regional agregada?**  
