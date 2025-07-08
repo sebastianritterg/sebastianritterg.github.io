@@ -156,7 +156,7 @@ $$
 \sum_{i=1}^{N-1}\omega_{i} = 1
 $$
 
-donde los pesos \($$\omega_i\$$) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
+donde los pesos $$\(\omega_i\)$$ se eligen para minimizar la discrepancia en el **período pre‑reforma**:
 
 $$
 Y_{Tt}
@@ -201,8 +201,6 @@ Por contraste, una estimación naïve muy común—comparar únicamente el valor
 
 Matemáticamente, podemos estimar el efecto de DiD con la siguiente regresión de efectos fijos:
 
-Matemáticamente, podemos estimar el efecto de DiD con la siguiente regresión de efectos fijos:
-
 $$
 Y_{it}
 =
@@ -217,9 +215,9 @@ $$
 
 - $$Y_{it}$$ es el outcome de la unidad $$i$$ en el tiempo $$t$$ (PIB per cápita, ventas, etc.).  
 - $$\mathrm{Treat}_i$$ es un indicador que vale 1 si la unidad $$i$$ está en el grupo tratado (región dividida) y 0 en caso contrario.  
-- $\mathrm{Post}_t$ es un indicador que vale 1 para los periodos **posteriores** a la reforma (2007 en adelante) y 0 para los periodos **anteriores**.  
-- El término de **interacción** $\mathrm{Treat}_i \times \mathrm{Post}_t$ captura el **efecto causal** de la reforma; su coeficiente, $\beta_3$, es la estimación de DiD.  
-- $\varepsilon_{it}$ es el término de error.  
+- $$\mathrm{Post}_t$$ es un indicador que vale 1 para los periodos **posteriores** a la reforma (2007 en adelante) y 0 para los periodos **anteriores**.  
+- El término de **interacción** $$\mathrm{Treat}_i \times \mathrm{Post}_t$$ captura el **efecto causal** de la reforma; su coeficiente, $$\beta_3$$, es la estimación de DiD.  
+- $$\varepsilon_{it}$$ es el término de error.  
 
 En muchos casos (como lo es en este paper) es necesario la inclusion de variables de control cuando se sospecha que no existen tendencias paralellas, cuando existen variables que influyen tanto a la asignacion del tratamiento y al outcome (confounders) o cuando exosten justificaciones teoricas para hacerlo. En este paper se incluyen controles mediante un metodo conocido como "Entropy Balance", asi como tambien mediante un metodo doblemente robusto de diferencias en diferencias (Sant’Anna & Zhao, 2020).
 
