@@ -313,6 +313,59 @@ En conjunto, sólo Los Lagos muestra un efecto adverso consistente; el resto d
 Los resultados anteriores deben ser tomados con precaucion dado que siempre puede existir algun tipo de shock especifico que haya impactado a alguna de las regiones. Por ello, siempre este tipo de analisis debe incorporar un analisis de robustes de los resultados, lo que ilustramos a continuacion.
 
 ###  Robustes de los resultados
+Una de las principales preocupaciones en cuanto a los resultados obtenidos son principalmente dos importantes shocks externos que afectan a las regiones tratadas. En primer lugar, en el sur de Chile y principalmente en la región de Los Lagos entre los años 2007 y 2010 hubo una importante crisis en el sector acuícola conocida como "Crisis del Salmón" el cual afectó gravemente la economía de la región. Por otro lado, las regiones del norte pueden ser bastante sensibles a las fluctuaciones del precio del cobre. Para evitar cualquier tipo de sesgo,re-estimamos el DiD excluyendo sucesivamente: 
+1. **Ventas de acuicultura** y **minería de cobre**.  
+2. **Regiones afectadas por el terremoto 2010**.  
+3. **Vecinos inmediatos** de cada región tratada, para descartar posibles spillovers.
+
+Los resultados se exponen en las tablas 7 y 8.
+
+**Tabla 7.** Robustness check del estimador DiD para regiones del sur.  
+_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+
+| Variable         | \multicolumn{4}{c|}{Los Ríos}            | \multicolumn{4}{c}{Los Lagos}           |
+|:-----------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|                  |  (1)  |  (2)  |  (3)  |  (4)  |  (1)  |  (2)  |  (3)  |  (4)  |
+| **DRDiD**        |  0.03 | −0.03 |  0.04 |  0.01 | −0.16 |  0.08 | −0.15 | −0.16 |
+| **p‑valor**      |  0.15 |  0.51 |  0.20 |  0.48 |  0.00 |  0.40 |  0.00 |  0.00 |
+| **EB**           |  0.01 | −0.05 |  0.00 |  0.00 | −0.11 |  0.00 | −0.12 | −0.11 |
+| **p‑valor**      |  0.63 |  0.26 |  0.98 |  0.95 |  0.93 |  0.05 |  0.09 |  —    |
+| **Pre trends**   |  0.30 |  0.65 |  0.06 |  0.81 |  0.24 |  0.06 |  0.82 |  0.17 |
+
+> **Nota:** Errores estándar agrupados al nivel regional.  
+> (1) Modelo base; (2) sin acuicultura/cobre; (3) sin regiones sísmicas; (4) sin vecinos.
+
+**Tabla 8.** Robustness check del estimador DiD para regiones del norte.  
+_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+
+| Variable         | \multicolumn{4}{c|}{Arica}               | \multicolumn{4}{c}{Tarapacá}             |
+|:-----------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|                  |  (1)  |  (2)  |  (3)  |  (4)  |  (1)  |  (2)  |  (3)  |  (4)  |
+| **DRDiD**        |  0.06 | −0.02 |  0.06 |  0.05 |  0.17 |  0.37 |  0.41 |  0.20 |
+| **p‑valor**      |  0.28 |  0.80 |  0.29 |  0.29 |  0.23 |  0.02 |  0.00 |  0.17 |
+| **EB**           |  0.01 | −0.33 |  0.00 |  0.03 |  0.22 |  0.26 |  0.22 |  0.11 |
+| **p‑valor**      |  0.72 |  0.11 |  0.98 |  0.46 |  0.16 |  0.01 |  0.19 |  0.07 |
+| **Pre trends**   |  0.48 |  0.59 |  0.35 |  0.71 |  0.48 |  0.18 |  0.42 |  0.45 |
+
+> **Nota:** Errores estándar agrupados al nivel regional.  
+> (1) Modelo base; (2) sin acuicultura/cobre; (3) sin regiones sísmicas; (4) sin vecinos.
+
+Al incorporar distintos chequeos de robustez, enfatizamos la **importancia de los choques locales** para interpretar correctamente los efectos:
+
+- **Los Ríos:**  
+  Todas las variantes (sin acuicultura/cobre, sin regiones sísmicas, sin vecinos) confirman un coeficiente indistinguible de cero. No hay evidencia de impacto de la reforma sobre su actividad.
+
+- **Los Lagos:**  
+  El efecto negativo originalmente observado desaparece **por completo** al excluir el sector de acuicultura (Crisis del Salmón). Esto muestra que la caída atribuida a la reforma se explica en realidad por el shock de la industria del salmón, no por la división territorial.  
+
+- **Arica:**  
+  Los resultados son consistentes y no difieren significativamente de cero en ninguna especificación.
+
+- **Tarapacá:**  
+  El coeficiente tiende a volverse positivo y significativo una vez que se excluyen las ventas de minería de cobre, sugiriendo un posible shock.
+
+**Conclusión:**  
+Sin un análisis de robustez que considere choques sectoriales y geográficos, podríamos haber interpretado erróneamente un “efecto negativo” de la reforma en Los Lagos. En realidad, la Crisis del Salmón fue la verdadera causa del resultado observado. ```
 
 ### Estatus administrativos y mecanismos
 
