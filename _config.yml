@@ -1,5 +1,6 @@
 title: "Sebastian Ritter"
 description: "PhD Candidate in Economics"
+url: "https://sebastianritterg.github.io/"
 theme: minima
 plugins:
   - jekyll-feed
