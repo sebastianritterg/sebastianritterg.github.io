@@ -58,7 +58,6 @@ Dado que los objetivos de investigación y los factores que influyen en el éxit
 La mayor parte de los estudios se ha centrado en fusiones (amalgamations), mientras que las divisiones (splits) aún reciben poca atención. En general, las divisiones muestran un impacto positivo sobre la actividad económica de las regiones recién creadas, con efectos inmediatos. No obstante, en Italia (Dalmazzo et al., 2017) los beneficios solo se materializan tras una posterior reforma de descentralización, lo que sugiere que la verdadera ganancia podría depender de combinar ambos tipos de reforma.
 
 **Tabla 1. Estudios sobre efectos de reformas territoriales en actividad económica**
-<div class="table-responsive">
 
 | Autor (año)             | País / Regiones          | Tipo  | Variable de interés                           | Efecto principal                            | Timing de los efectos |
 | ----------------------- | ------------------------ | ----- | ------------------------------------------- | ------------------------------------------- | --------------------- |
@@ -70,7 +69,6 @@ La mayor parte de los estudios se ha centrado en fusiones (amalgamations), mient
 | Asher & Novosad (2015)  | India                    | Split | Actividad económica y capital humano        | Positivo                                    | No especificado       |
 | Lima (2020)             | Brasil                   | Split | Crecimiento local                           | Positivo                                    | 1 año                 |
 
-</div>
 ---
 
 ### 2. Importancia del estatus administrativo
@@ -117,8 +115,6 @@ Este bajo nivel de descentralización hace de Chile un caso especialmente intere
 
 **Tabla 2. Valores RAI comparativos de algunos países al momento de sus reformas territoriales**
 
-<div class="table-responsive">
-
 | País   | Año de reforma | RAI    |
 |:-------|:--------------:|-------:|
 | Italia | 1963           | 10.31  |
@@ -126,7 +122,6 @@ Este bajo nivel de descentralización hace de Chile un caso especialmente intere
 | India  | 2000           | 35.97  |
 | Chile  | 2007           | 4.00   |
 
-</div>
 
 ---
 ## Metodología
@@ -280,8 +275,6 @@ A continuación resumimos los resultados del estimador de Diferencias en Diferen
 **Tabla 3.** Resultados del estimador de diferencias en diferencias, Los Ríos y Los Lagos, 2005–2014.  
 _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
-<div class="table-responsive">
-
 | Variable | Los Ríos Model 1 | Model 2 | Model 3 | Los Lagos Model 1 | Model 2 | Model 3 |
 |:---------|:----------------:|:-------:|:-------:|:-----------------:|:-------:|:-------:|
 | ATT      | 0.031            | 0.013   | 0.034   | −0.106            | −0.111  | −0.157  |
@@ -289,8 +282,6 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 | p‑val    | 0.223            | 0.631   | 0.152   | 0.001             | 0.049   | 0.000   |
 | Covariates | NO             | EB      | YES     | NO                | EB      | YES     |
 | N        | 2900             | 2900    | 2900    | 3070              | 3070    | 3070    |
-
-</div>
 
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) TWFE; (2) TWFE + EB; (3) DRDiD.
@@ -300,8 +291,6 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 **Tabla 4.** Resultados del estimador de diferencias en diferencias, Arica y Tarapacá, 2005–2014.  
 _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
-<div class="table-responsive">
-
 | Variable | Arica Model 1 | Model 2 | Model 3 | Tarapacá Model 1 | Model 2 | Model 3 |
 |:---------|:-------------:|:-------:|:-------:|:----------------:|:-------:|:-------:|
 | ATT      | 0.057         | 0.014   | 0.055   | 0.110            | 0.216   | 0.165   |
@@ -309,8 +298,6 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 | p‑val    | 0.038         | 0.722   | 0.281   | 0.001            | 0.159   | 0.229   |
 | Covariates | NO          | YES     | YES     | NO               | YES     | YES     |
 | N        | 2810          | 2800    | 2800    | 2830             | 2830    | 2830    |
-
-</div>
 
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) TWFE; (2) TWFE + EB; (3) DRDiD.
