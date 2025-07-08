@@ -30,6 +30,6 @@ I am a PhD student in Economics and researcher in the Regional Quantitative Grou
 
 ## Connect with me
 
-- [GitHub](https://github.com/sebaritterg)  
+- [GitHub](https://github.com/sebastianritterg)  
 - [Google Scholar](https://scholar.google.com/citations?user=LPW_2A8AAAAJ&hl=es)  
 - [Twitter](https://x.com/seba_ritter)
