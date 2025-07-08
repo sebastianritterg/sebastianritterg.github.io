@@ -216,7 +216,7 @@ $$
 
 **donde:**  
 
-- $Y_{it}$ es el outcome de la unidad $i$ en el tiempo $t$ (PIB per cápita, ventas, etc.).  
+- $$Y_{it}$$ es el outcome de la unidad $i$ en el tiempo $t$ (PIB per cápita, ventas, etc.).  
 - $\mathrm{Treat}_i$ es un indicador que vale 1 si la unidad $i$ está en el grupo tratado (región dividida) y 0 en caso contrario.  
 - $\mathrm{Post}_t$ es un indicador que vale 1 para los periodos **posteriores** a la reforma (2007 en adelante) y 0 para los periodos **anteriores**.  
 - El término de **interacción** $\mathrm{Treat}_i \times \mathrm{Post}_t$ captura el **efecto causal** de la reforma; su coeficiente, $\beta_3$, es la estimación de DiD.  
