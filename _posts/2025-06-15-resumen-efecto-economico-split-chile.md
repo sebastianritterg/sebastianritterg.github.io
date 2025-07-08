@@ -6,7 +6,7 @@ categories: [papers, español]
 lang: es
 ---
 ![Ceremonia inaugural de la nueva región de Los Ríos, 2007.]( /assets/blog_images/banne2.jpg){: width="100%" style="display:block; margin:0 auto;" }
-<small>**Figura 0.1.** Celebración oficial de la creación de la Región de Los Ríos, marzo 2007. Fuente: El Navegable.</small>
+<small>Celebración oficial de la creación de la Región de Los Ríos, marzo 2007. Fuente: El Navegable.</small>
 
 <!-- 1) Inyecta el script de MathJax aquí: -->
 <script
