@@ -321,31 +321,31 @@ Una de las principales preocupaciones en cuanto a los resultados obtenidos son p
 Los resultados se exponen en las tablas 7 y 8.
 
 **Tabla 7.** Robustness check del estimador DiD para regiones del sur.  
-_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
-| Variable         | \multicolumn{4}{c|}{Los Ríos}            | \multicolumn{4}{c}{Los Lagos}           |
-|:-----------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|                  |  (1)  |  (2)  |  (3)  |  (4)  |  (1)  |  (2)  |  (3)  |  (4)  |
-| **DRDiD**        |  0.03 | −0.03 |  0.04 |  0.01 | −0.16 |  0.08 | −0.15 | −0.16 |
-| **p‑valor**      |  0.15 |  0.51 |  0.20 |  0.48 |  0.00 |  0.40 |  0.00 |  0.00 |
-| **EB**           |  0.01 | −0.05 |  0.00 |  0.00 | −0.11 |  0.00 | −0.12 | −0.11 |
-| **p‑valor**      |  0.63 |  0.26 |  0.98 |  0.95 |  0.93 |  0.05 |  0.09 |  —    |
-| **Pre trends**   |  0.30 |  0.65 |  0.06 |  0.81 |  0.24 |  0.06 |  0.82 |  0.17 |
+| Variable    | Los Ríos (1) | (2)   | (3)   | (4)   | Los Lagos (1) | (2)   | (3)    | (4)    |
+|:------------|:------------:|:-----:|:-----:|:-----:|:-------------:|:-----:|:------:|:------:|
+| **DRDiD**   | 0.03         | −0.03 | 0.04  | 0.01  | −0.16         | 0.08  | −0.15  | −0.16  |
+| **p‑valor** | 0.15         | 0.51  | 0.20  | 0.48  | 0.00          | 0.40  | 0.00   | 0.00   |
+| **EB**      | 0.01         | −0.05 | 0.00  | 0.00  | −0.11         | 0.00  | −0.12  | −0.11  |
+| **p‑valor** | 0.63         | 0.26  | 0.98  | 0.95  | 0.93          | 0.05  | 0.09   | —      |
+| **Pre trends** | 0.30      | 0.65  | 0.06  | 0.81  | 0.24          | 0.06  | 0.82   | 0.17   |
 
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) Modelo base; (2) sin acuicultura/cobre; (3) sin regiones sísmicas; (4) sin vecinos.
 
-**Tabla 8.** Robustness check del estimador DiD para regiones del norte.  
-_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+---
 
-| Variable         | \multicolumn{4}{c|}{Arica}               | \multicolumn{4}{c}{Tarapacá}             |
-|:-----------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|                  |  (1)  |  (2)  |  (3)  |  (4)  |  (1)  |  (2)  |  (3)  |  (4)  |
-| **DRDiD**        |  0.06 | −0.02 |  0.06 |  0.05 |  0.17 |  0.37 |  0.41 |  0.20 |
-| **p‑valor**      |  0.28 |  0.80 |  0.29 |  0.29 |  0.23 |  0.02 |  0.00 |  0.17 |
-| **EB**           |  0.01 | −0.33 |  0.00 |  0.03 |  0.22 |  0.26 |  0.22 |  0.11 |
-| **p‑valor**      |  0.72 |  0.11 |  0.98 |  0.46 |  0.16 |  0.01 |  0.19 |  0.07 |
-| **Pre trends**   |  0.48 |  0.59 |  0.35 |  0.71 |  0.48 |  0.18 |  0.42 |  0.45 |
+**Tabla 8.** Robustness check del estimador DiD para regiones del norte.  
+_Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
+
+| Variable      | Arica (1) | (2)    | (3)    | (4)    | Tarapacá (1) | (2)    | (3)    | (4)    |
+|:--------------|:---------:|:------:|:------:|:------:|:------------:|:------:|:------:|:------:|
+| **DRDiD**     | 0.06      | −0.02  | 0.06   | 0.05   | 0.17         | 0.37   | 0.41   | 0.20   |
+| **p‑valor**   | 0.28      | 0.80   | 0.29   | 0.29   | 0.23         | 0.02   | 0.00   | 0.17   |
+| **EB**        | 0.01      | −0.33  | 0.00   | 0.03   | 0.22         | 0.26   | 0.22   | 0.11   |
+| **p‑valor**   | 0.72      | 0.11   | 0.98   | 0.46   | 0.16         | 0.01   | 0.19   | 0.07   |
+| **Pre trends**| 0.48      | 0.59   | 0.35   | 0.71   | 0.48         | 0.18   | 0.42   | 0.45   |
 
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) Modelo base; (2) sin acuicultura/cobre; (3) sin regiones sísmicas; (4) sin vecinos.
@@ -365,8 +365,55 @@ Al incorporar distintos chequeos de robustez, enfatizamos la **importancia de lo
   El coeficiente tiende a volverse positivo y significativo una vez que se excluyen las ventas de minería de cobre, sugiriendo un posible shock.
 
 **Conclusión:**  
-Sin un análisis de robustez que considere choques sectoriales y geográficos, podríamos haber interpretado erróneamente un “efecto negativo” de la reforma en Los Lagos. En realidad, la Crisis del Salmón fue la verdadera causa del resultado observado. ```
+Sin un análisis de robustez que considere choques sectoriales y geográficos, podríamos haber interpretado erróneamente un “efecto negativo” de la reforma en Los Lagos. En realidad, la Crisis del Salmón fue la verdadera causa del resultado observado. 
 
 ### Estatus administrativos y mecanismos
+En esta sección resumimos brevemente los hallazgos sobre el impacto de la obtención de un nuevo estatus administrativo y los mecanismos plausibles, sin entrar en todos los detalles (que pueden consultarse en el artículo original).
+Tras la reforma, Valdivia y Arica pasaron a ser capitales regionales, mientras que La Unión y Putre adquirieron el estatus de capitales provinciales. De acuerdo con la literatura, esperábamos un efecto positivo generalizado —más inversión pública, llegada de oficinas y empleo público—. Sin embargo, nuestros resultados revelan una fuerte heterogeneidad:
+
+- **Sur (Los Ríos):**  
+  - **Valdivia** experimenta un pequeño efecto negativo, pese a haber sido capital regional.  
+  - **La Unión**, que ascendió de municipio a capital provincial, muestra un aumento notable en la actividad economica.
+
+- **Norte:**  
+  - **Arica** presenta coeficientes positivos en algunos modelos, pero con pre‑tendencias relevantes que cuestionan su validez.  
+  - **Putre**, ya capital provincial antes de 2007, no muestra efectos robustos.
 
 ## Discusion y lecciones de la investigacion
+## 6. Discusión y conclusiones
+
+En este trabajo evaluamos el efecto económico (PIB per cápita y ventas privadas) de la reforma territorial de 2007 que dividió dos regiones en el norte y el sur de Chile. Nuestro caso de estudio es novedoso por las características institucionales y socioeconómicas del país.
+
+1. **¿Fue beneficiosa la división regional agregada?**  
+   Usando Synthetic Control, no hallamos efectos significativos del “split” en los agregados Tarapacá + Arica ni Los Lagos + Los Ríos en el corto y mediano plazo.
+
+2. **¿Hubo efectos heterogéneos?**  
+   - En el sur, el análisis DiD mostró un efecto negativo inicial en Los Lagos, pero tras descontar la **Crisis del Salmón (2007–2010)** el coeficiente se anula, alineándose con SCM.  
+   - En el norte, sólo Tarapacá presenta un efecto positivo tras excluir ventas de cobre, pero sin evidencia de cambios en los mecanismos asociados a la reforma.
+
+3. **¿Impulsó la nueva condición administrativa la actividad?**  
+   - **Valdivia** (capital regional) no experimenta aumentos claros.  
+   - **La Unión** (nuevo capital provincial) registra incrementos significativos en la actividad economica, attraccion de empresas y empleo privado.  
+   - **Arica** muestra resultados poco confiables debido a tendencias previas.  
+   - **Putre** (capital provincial antes y después) no exhibe cambios.
+
+Nuestros resultados son coherentes con la investigacion sobre decentralizacion y crecimiento, en especifico:
+- **Descentralización administrativa**  
+  Aray & Pedauga (2024) advierten que en lugares con **alto capital humano** la creación de nuevas estructuras administrativas puede resultar contraproducente. Valdivia, con 11,18 años promedio de escolaridad, encaja en este patrón: pese a recibir nuevo estatus regional, no registra crecimiento adicional.  
+
+- **Urbanización y fuerzas de aglomeración**  
+  Bluhm et al. (2021) y Kurniewicz et al. (2024) muestran que el beneficio de un nuevo estatus es mayor en ciudades **en proceso de urbanización** con redes urbanas poco consolidadas. La Unión (61,67 % urbanización y 9,67 años de educación) aprovecha ese impulso inicial, consistente con Clifford et al. (2022) y Rodríguez‑Pose & Griffiths (2021), quienes encuentran ganancias especialmente en ciudades pequeñas y medianas.
+
+Finalmente, es importante comparar este caso de estudio con los ya analizados en la literatura. Como vimos en el contexto institucional, Chile es un país altamente centralizado frente a otros ejemplos donde las reformas territoriales muestran efectos positivos. A diferencia de esos contextos, la reforma de 2007 en Chile **no** implicó cambios en la transferencia de poder territorial, lo que genera importantes **implicaciones de política**. Antes de reubicar capitales o dividir regiones, es esencial considerar:
+
+- Las competencias reales de los gobiernos locales.  
+- Las características socioeconómicas de los lugares afectados (como el caso de La Unión).
+
+Del mismo modo, resulta prioritario que investigaciones futuras combinen estudios de reformas territoriales con análisis de descentralización y crecimiento económico. La bibliografía existente suele examinar ambos fenómenos por separado —y los resultados más positivos tienden a observarse en países con un alto grado de descentralización—. Así, es necesario explorar cómo interactúan las reformas territoriales con las atribuciones de los gobiernos regionales en distintos contextos nacionales, para entender mejor cuándo potencian o socavan sus efectos previstos.  
+
+
+---
+
+## Referencias
+
+
