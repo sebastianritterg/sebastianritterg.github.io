@@ -5,7 +5,7 @@ date: 2025-06-15 10:00:00 -0400
 categories: [papers, español]
 lang: es
 ---
-![Ceremonia inaugural de la nueva región de Los Ríos, 2007.]( /assets/blog_images/banne2.jpg){: width="100%" style="display:block; margin:0 auto;" }
+![Ceremonia inaugural de la nueva región de Los Ríos, 2007.]( /assets/blog_images/banne2.jpg){: width="50%" style="display:block; margin:0 auto;" }
 <small>Celebración oficial de la creación de la Región de Los Ríos, marzo 2007. Fuente: El Navegable.</small>
 
 <!-- 1) Inyecta el script de MathJax aquí: -->
@@ -175,7 +175,7 @@ Y_{T,\mathrm{post}}
 $$
 
 ![Esquema de Synthetic Control: de la combinación pre‑reforma al cálculo del gap post‑reforma.](/assets/blog_images/esquema_scm.png){: width="70%" style="display:block; margin:0 auto;" }
-*Figura 3. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
+*Figura 2. A la izquierda, la región tratada (línea amarilla) y el promedio de controles (línea roja) divergen. A la derecha, el synthetic control (línea roja punteada) imita la trayectoria amarilla antes de la intervención y permite medir el gap tras la reforma.*
 
 Con Synthetic Control obtenemos un contrafactual robusto para cada región dividida, que luego validamos y complementamos con DiD para aislar definitivamente el impacto de la reforma territorial sobre la actividad economica.
 
@@ -193,7 +193,7 @@ Por contraste, una estimación naïve muy común—comparar únicamente el valor
 
 ![Sesgo en DiD: contraste entre estimación naïve, contrafactual sintético y efecto causal real.](/assets/blog_images/esquema_did.png){: width="60%" style="display:block; margin:0 auto;" }
 
-*Figura 2. Sesgo en DiD:
+*Figura 3. Sesgo en DiD:
 – Estimación naïve _(B−D)_ en rojo.
 – Contrafactual sintético _(S)_ trazado con línea punteada gris.
 – Efecto causal real _(B−S)_ en negro.
@@ -276,7 +276,7 @@ A continuación resumimos los resultados del estimador de Diferencias en Diferen
 2. TWFE + Entropy Balance (EB),  
 3. DR‑DiD (Sant’Anna & Zhao, 2020).
 
-**Tabla 5.** Resultados del estimador de diferencias en diferencias, Los Ríos y Los Lagos, 2005–2014.  
+**Tabla 3.** Resultados del estimador de diferencias en diferencias, Los Ríos y Los Lagos, 2005–2014.  
 _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
 | Variable | Los Ríos Model 1 | Model 2 | Model 3 | Los Lagos Model 1 | Model 2 | Model 3 |
@@ -292,7 +292,7 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
 ---
 
-**Tabla 6.** Resultados del estimador de diferencias en diferencias, Arica y Tarapacá, 2005–2014.  
+**Tabla 4.** Resultados del estimador de diferencias en diferencias, Arica y Tarapacá, 2005–2014.  
 _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
 | Variable | Arica Model 1 | Model 2 | Model 3 | Tarapacá Model 1 | Model 2 | Model 3 |
@@ -306,7 +306,7 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 > **Nota:** Errores estándar agrupados al nivel regional.  
 > (1) TWFE; (2) TWFE + EB; (3) DRDiD.
 
-En las Tablas 5 y 6, los resultados de DiD indican:
+En las Tablas 3 y 4, los resultados de DiD indican:
 
 - **Los Ríos:** en ninguno de los tres modelos el coeficiente de interacción es significativo, por lo que **no hallamos evidencia** de un cambio en la actividad tras la reforma.  
 - **Arica y Tarapacá:** los efectos estimados pierden significancia al incorporar controles más estrictos (Entropy Balance y DRDiD), lo que sugiere ausencia de impacto duradero.  
@@ -321,9 +321,9 @@ Una de las principales preocupaciones en cuanto a los resultados obtenidos son p
 2. **Regiones afectadas por el terremoto 2010**.  
 3. **Vecinos inmediatos** de cada región tratada, para descartar posibles spillovers.
 
-Los resultados se exponen en las tablas 7 y 8.
+Los resultados se exponen en las tablas 5 y 6.
 
-**Tabla 7.** Robustness check del estimador DiD para regiones del sur.  
+**Tabla 5.** Robustness check del estimador DiD para regiones del sur.  
 _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
 | Variable    | Los Ríos (1) | (2)   | (3)   | (4)   | Los Lagos (1) | (2)   | (3)    | (4)    |
@@ -339,7 +339,7 @@ _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
 ---
 
-**Tabla 8.** Robustness check del estimador DiD para regiones del norte.  
+**Tabla 6.** Robustness check del estimador DiD para regiones del norte.  
 _Fuente: Ritter (2025). Reproducido bajo CC BY‑NC‑ND 4.0._
 
 | Variable      | Arica (1) | (2)    | (3)    | (4)    | Tarapacá (1) | (2)    | (3)    | (4)    |
