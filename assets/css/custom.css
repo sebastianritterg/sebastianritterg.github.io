@@ -19,3 +19,16 @@
     margin-right: 2rem;
   }
 }
+
+/* -----------------------------
+   Tablas responsivas en móvil
+----------------------------- */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* scroll suave en iOS */
+  margin-bottom: 1rem;
+}
+.table-responsive table {
+  width: 100%;
+  border-collapse: collapse;
+}
