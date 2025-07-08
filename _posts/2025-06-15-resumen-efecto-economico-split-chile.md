@@ -215,6 +215,7 @@ Y_{it}
 \varepsilon_{it},
 $$
 
+
 donde:
 
 - $Y_{it}$ es el outcome de la unidad $i$ en el tiempo $t$ (PIB per cápita, ventas, etc.).
