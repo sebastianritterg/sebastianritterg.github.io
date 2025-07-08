@@ -156,7 +156,7 @@ $$
 \sum_{i=1}^{N-1}\omega_{i} = 1
 $$
 
-donde los pesos \(\omega_i\) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
+donde los pesos \($$\omega_i\$$) se eligen para minimizar la discrepancia en el **período pre‑reforma**:
 
 $$
 Y_{Tt}
@@ -213,12 +213,10 @@ Y_{it}
 + \varepsilon_{it}.
 $$
 
-
 **donde:**  
 
-
-- $Y_{it}$ es el outcome de la unidad $i$ en el tiempo $t$ (PIB per cápita, ventas, etc.).  
-- $\mathrm{Treat}_i$ es un indicador que vale 1 si la unidad $i$ está en el grupo tratado (región dividida) y 0 en caso contrario.  
+- $$Y_{it}$$ es el outcome de la unidad $$i$$ en el tiempo $$t$$ (PIB per cápita, ventas, etc.).  
+- $$\mathrm{Treat}_i$$ es un indicador que vale 1 si la unidad $$i$$ está en el grupo tratado (región dividida) y 0 en caso contrario.  
 - $\mathrm{Post}_t$ es un indicador que vale 1 para los periodos **posteriores** a la reforma (2007 en adelante) y 0 para los periodos **anteriores**.  
 - El término de **interacción** $\mathrm{Treat}_i \times \mathrm{Post}_t$ captura el **efecto causal** de la reforma; su coeficiente, $\beta_3$, es la estimación de DiD.  
 - $\varepsilon_{it}$ es el término de error.  
