@@ -5,6 +5,9 @@ date: 2025-06-15 10:00:00 -0400
 categories: [papers, español]
 lang: es
 ---
+![Ceremonia inaugural de la nueva región de Los Ríos, 2007.]( /assets/blog_images/ceremonia_los_rios.jpg){: width="100%" style="display:block; margin:0 auto;" }
+<small>**Figura 0.1.** Celebración oficial de la creación de la Región de Los Ríos, marzo 2007. Fuente: El Navegable.</small>
+
 <!-- 1) Inyecta el script de MathJax aquí: -->
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
@@ -413,5 +416,71 @@ Del mismo modo, resulta prioritario que investigaciones futuras combinen estudio
 ---
 
 ## Referencias
+
+- Aray, H., & Pedauga, L. (2024). The relationship between decentralization and economic growth across regimes. *Annals of Regional Science*, 72(1), 1–25. https://doi.org/10.1007/s00168-022-01187-x
+
+- Asher, S., & Novosad, P. (2015). Impacts of local control over political institutions: evidence from state splits in India. *Working Paper*.
+
+- Baskaran, T., & Feld, L. P. (2013). Fiscal decentralization and economic growth in OECD countries: is there a relationship? *Public Finance Review*, 41(4), 421–445. https://doi.org/10.1177/1091142112463726
+
+- Becker, S. O., Heblich, S., & Sturm, D. M. (2021). The impact of public employment: evidence from Bonn. *Journal of Urban Economics*, 122, 103291. https://doi.org/10.1016/j.jue.2020.103291
+
+- Billing, T. (2019). Government fragmentation, administrative capacity, and public goods: the negative consequences of reform in Burkina Faso. *Political Research Quarterly*, 72(3), 669–685. https://doi.org/10.1177/1065912918800820
+
+- Bluhm, R., Lessmann, C., & Schaudt, P. (2021). The political geography of cities. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.3953012
+
+- Canavire‑Bacarreza, G., Martinez‑Vazquez, J., & Yedgenov, B. (2020). Identifying and disentangling the impact of fiscal decentralization on economic growth. *World Development*, 127, 104742. https://doi.org/10.1016/j.worlddev.2019.104742
+
+- Chodorow‑Reich, G. (2019). Geographic cross‑sectional fiscal spending multipliers: what have we learned? *American Economic Journal: Economic Policy*, 11(2), 1–34. https://doi.org/10.1257/pol.20160465
+
+- Clifford, J. P., Doran, J., Crowley, F., & Jordan, D. (2022). The relationship between city size, decentralisation and economic growth. *Journal of Economic Studies*, 50(6), 1171–1189. https://doi.org/10.1108/JES-03-2022-0146
+
+- Corbi, R., Papaioannou, E., & Surico, P. (2019). Regional transfer multipliers. *Review of Economic Studies*, 86(5), 1901–1934. https://doi.org/10.1093/restud/rdy069
+
+- Dalmazzo, A., de Blasio, G., & Poy, S. (2017). Splitting regions and economic performance: evidence from Italy. *Regional Science and Urban Economics*, 67, 1–15. https://doi.org/10.1016/j.regsciurbeco.2017.04.002
+
+- Egger, P. H., Koethenbuerger, M., & Loumeau, G. (2022). Local border reforms and economic activity. *Journal of Economic Geography*, 22(1), 81–102. https://doi.org/10.1093/jeg/lbab030
+
+- Faggio, G., Schluter, T., & vom Berge, P. (2019). Interaction of public and private employment: evidence from a German government move. *Working Paper*.
+
+- Filippetti, A., & Sacchi, A. (2016). Decentralization and economic growth reconsidered: the role of regional authority. *Environment and Planning C: Government and Policy*, 34(8), 1793–1824. https://doi.org/10.1177/0263774X16642230
+
+- Grossmann, G., Pierskalla, J. H., & Dean, E. B. (2017). Government fragmentation and public goods provision. *Journal of Politics*, 79(3), 823–840. https://doi.org/10.1086/690305
+
+- Heider, B., Rosenfeld, M. T. W., & Kauffmann, A. (2018). Does administrative status matter for urban growth? Evidence from present and former county capitals in East Germany. *Growth and Change*, 49(1), 33–54. https://doi.org/10.1111/grow.12213
+
+- Hooghe, L., Marks, G., & Schakel, A. H. (2016). *Measuring Regional Authority: A Postfunctionalist Theory of Governance, Volume I*. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198728870.001.0001
+
+- Kim, S., & Law, M. T. (2016). Political centralization, federalism, and urban development: evidence from US and Canadian capital cities. *Social Science History*, 40(1), 121–146. https://doi.org/10.1017/SSH.2015.83
+
+- Kurniewicz, M., Swianiewicz, P., & Łukomska, J. (2024). Why regional capital status only sometimes enhances the growth of cities: comparison of 1975 and 1998 Polish reforms. *Cities*, 144, 104642. https://doi.org/10.1016/j.cities.2023.104642
+
+- Krugman, P. (1996). Urban concentration: the role of increasing returns and transport costs. *International Regional Science Review*, 19(1–2), 5–30. https://doi.org/10.1177/016001769601900202
+
+- Lima, R. C. (2020). The economic impact of state splitting in Brazil. *B.E. Journal of Economic Analysis & Policy*, 21(1), 417–432. https://doi.org/10.1515/bejeap-2020-0187
+
+- Lin, J. Y., & Liu, Z. (2000). Fiscal decentralization and economic growth in China. *Economic Development and Cultural Change*, 49(1), 1–21. https://doi.org/10.1086/452488
+
+- Mendoza‑Velázquez, A., Rubio‑García, M., & Conde‑Cortés, L. D. (2022). Fiscal decentralization and regional economic growth: evidence from Mexico since the 2000s. *Public Budgeting & Finance*, 42(1), 45–65. https://doi.org/10.1111/pbaf.12305
+
+- Olayele, B. F., & Soo, K. T. (2020). Redistributive fiscal policies and regional economic disparities. *Cogent Economics & Finance*, 8(1), 1853326. https://doi.org/10.1080/23322039.2020.1853326
+
+- Rodríguez‑Pose, A., & Griffiths, A. (2021). Developing intermediate cities. *Regional Science and Policy & Practice*, 13(3), 441–457. https://doi.org/10.1111/rsp3.12421
+
+- Rodríguez‑Pose, A., & Muštra, V. (2022). The economic returns of decentralisation: government quality and the role of space. *Environment and Planning A: Economy and Space*, 54(8), 1604–1622. https://doi.org/10.1177/0308518X221118913
+
+- Roesel, F. (2017). Do mergers of large local governments reduce expenditures? Evidence from Germany using the synthetic control method. *European Journal of Political Economy*, 50, 22–36. https://doi.org/10.1016/j.ejpoleco.2017.10.002
+
+- Ritter, S. (2025). The economic effect of splitting a region in a centralized country: A case from Chile. *Global Challenges & Regional Science*, 2(2), 100011. https://doi.org/10.1016/j.gcrs.2025.100011
+
+- Sant’Anna, P. H. C., & Zhao, Y. (2020). Doubly robust difference‑in‑differences estimators. *Journal of Econometrics*, 218(2), 289–316. https://doi.org/10.1016/j.jeconom.2020.06.003
+
+- Turner, S. C. (2014). Public sector agglomeration in developed countries: the role of oversight. *Growth and Change*, 45(2), 191–210. https://doi.org/10.1111/grow.12048
+
+- Turner, S. C., & Turner, R. N. (2011). Capital cities: a special case in urban development. *Annals of Regional Science*, 46(1), 19–35. https://doi.org/10.1007/s00168-009-0321-8
+
+- Yushkov, A. (2015). Fiscal decentralization and regional economic growth: theory, empirics, and the Russian experience. *Russian Journal of Economics*, 1(4), 404–418. https://doi.org/10.1016/j.ruje.2016.02.002
+
+- Zhao, L., Burge, G., Tang, Y., & Chang, Z. (2023). Administrative resources, new investment, and local taxation. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.4494959
 
 
