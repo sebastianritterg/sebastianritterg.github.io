@@ -2,22 +2,14 @@
 title: "Home"
 ---
 
-<!-- Foto flotando a la izquierda y un poquito más arriba -->
-<img
-  src="/assets/img/profile.jpg"
-  alt="Profile photo"
-  style="
-    float: left;
-    width: 210px;
-    height: 210px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin: -0.5rem 1rem 1rem 0;
-  "
-/>
+<section class="home-hero" aria-labelledby="home-hero-title">
+  <div class="home-hero__content">
+    <h1 id="home-hero-title">Sebastian Ritter</h1>
+    <p class="home-hero__subtitle">PhD Candidate in Economics</p>
+  </div>
+</section>
 
-# Sebastian Ritter  
-**PhD Candidate in Economics**
+<img class="profile-photo" src="/assets/img/profile.jpg" alt="Profile photo of Sebastian Ritter" />
 
 ## About me
 
