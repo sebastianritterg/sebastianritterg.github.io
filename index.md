@@ -2,6 +2,13 @@
 title: "Home"
 ---
 
+<div class="hero" style="background-image: url('{{ '/assets/img/valdivia.jpg' | relative_url }}');">
+  <div class="hero__content">
+    <h1 class="hero__title">Sebastian Ritter</h1>
+    <p class="hero__subtitle">PhD Candidate in Economics</p>
+  </div>
+</div>
+
 <!-- Foto flotando a la izquierda y un poquito más arriba -->
 <img
   src="/assets/img/profile.jpg"
@@ -15,9 +22,6 @@ title: "Home"
     margin: -0.5rem 1rem 1rem 0;
   "
 />
-
-# Sebastian Ritter  
-**PhD Candidate in Economics**
 
 ## About me
 
