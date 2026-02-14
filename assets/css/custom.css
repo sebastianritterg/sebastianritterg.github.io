@@ -20,3 +20,61 @@
   }
 }
 
+/* Improve readability for long-form pages (research / conferences) */
+.page-content .wrapper {
+  max-width: 72ch;
+}
+
+.page-content .wrapper h2,
+.page-content .wrapper h3,
+.page-content .wrapper h4 {
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+}
+
+.page-content .wrapper h2 {
+  font-size: 1.45rem;
+}
+
+.page-content .wrapper p,
+.page-content .wrapper ul,
+.page-content .wrapper ol,
+.page-content .wrapper blockquote {
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+}
+
+.page-content .wrapper ul,
+.page-content .wrapper ol {
+  padding-left: 1.35rem;
+}
+
+.page-content .wrapper li {
+  margin-bottom: 0.55rem;
+}
+
+.page-content .wrapper li > ul,
+.page-content .wrapper li > ol {
+  margin-top: 0.45rem;
+  margin-bottom: 0.65rem;
+}
+
+/* Muted metadata in publication and conference entries */
+.page-content .wrapper li em,
+.page-content .wrapper li i,
+.page-content .wrapper li small {
+  color: #6b7280;
+}
+
+/* Abstract blockquotes */
+.page-content .wrapper blockquote {
+  border-left: 4px solid #d1d5db;
+  background: #f8fafc;
+  padding: 0.85rem 1rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.page-content .wrapper blockquote p:last-child {
+  margin-bottom: 0;
+}
