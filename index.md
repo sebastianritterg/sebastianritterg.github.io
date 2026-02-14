@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 ---
 
 <div class="hero" style="background-image: url('{{ '/assets/img/valdivia.jpg' | relative_url }}');">
