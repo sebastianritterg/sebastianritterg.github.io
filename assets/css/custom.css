@@ -20,3 +20,22 @@
   }
 }
 
+/* Keep the Minima mobile navigation above the hero/cover image */
+.site-header {
+  position: relative;
+  z-index: 20;
+  overflow: visible;
+}
+
+.site-nav,
+.site-header .site-nav,
+.site-nav .trigger {
+  position: relative;
+  z-index: 30;
+  overflow: visible;
+}
+
+.hero {
+  position: relative;
+  z-index: 0;
+}
