@@ -3,8 +3,27 @@
 
 @import "minima";
 
+.site-header {
+  position: relative;
+  z-index: 20;
+  overflow: visible;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav,
+  .site-nav .trigger {
+    position: relative;
+    z-index: 30;
+  }
+
+  .site-nav .trigger {
+    overflow: visible;
+  }
+}
+
 .hero {
   position: relative;
+  z-index: 0;
   width: 100vw;
   min-height: 260px;
   max-height: 320px;

@@ -19,25 +19,3 @@
     margin-right: 2rem;
   }
 }
-
-.paper-abstract {
-  margin-top: 0.5rem;
-  padding: 0.4rem 0 0.2rem 0.9rem;
-  border-left: 3px solid rgba(0, 0, 0, 0.14);
-}
-
-.paper-abstract summary {
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-
-.paper-abstract summary:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
-}
-
-.paper-abstract > :not(summary) {
-  margin-top: 0.55rem;
-}
