@@ -27,15 +27,12 @@
   overflow: visible;
 }
 
-.site-nav,
-.site-header .site-nav,
-.site-nav .trigger {
-  position: relative;
-  z-index: 30;
-  overflow: visible;
-}
-
-.hero {
-  position: relative;
-  z-index: 0;
+@media screen and (max-width: 600px) {
+  .site-nav,
+  .site-header .site-nav,
+  .site-nav .trigger {
+    position: relative;
+    z-index: 30;
+    overflow: visible;
+  }
 }
