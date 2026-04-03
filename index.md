@@ -5,7 +5,7 @@ title: ""
 <div class="hero">
   <img
     class="hero__image"
-    src="{{ '/assets/img/valdivia.jpg' | relative_url }}"
+    src="{{ '/assets/img/valdivia-banner.jpg' | relative_url }}"
     alt="River and city skyline"
   />
   <div class="hero__content">
