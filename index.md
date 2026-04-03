@@ -2,7 +2,12 @@
 title: ""
 ---
 
-<div class="hero" style="background-image: url('{{ '/assets/img/valdivia.jpg' | relative_url }}');">
+<div class="hero">
+  <img
+    class="hero__image"
+    src="{{ '/assets/img/valdivia.jpg' | relative_url }}"
+    alt="River and city skyline"
+  />
   <div class="hero__content">
     <h1 class="hero__title">Sebastian Ritter</h1>
     <p class="hero__subtitle">PhD Candidate in Economics</p>
