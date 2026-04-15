@@ -89,3 +89,13 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 700px) {
+  body.page-home .hero {
+    height: clamp(300px, 74vw, 420px);
+  }
+
+  body.page-home .hero__content {
+    padding-top: 8.5rem;
+  }
+}
