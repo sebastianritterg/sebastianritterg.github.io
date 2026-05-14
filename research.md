@@ -3,6 +3,16 @@ title: Research
 permalink: /research/
 ---
 
+## Job Market Paper
+
+- **Ritter, S. (2026). "The Urban Costs of Rural Conflict: Evidence from Southern Chile".**
+
+  <details class="paper-abstract">
+    <summary><strong>Abstract</strong></summary>
+
+    This paper studies whether predominantly rural conflict affects nearby urban markets even when conflict events occur outside the city. I examine the Mapuche conflict in southern Chile, an Indigenous self-determination conflict centered on land restitution, territorial control, and historically recognized claims. Combining geocoded conflict events with administrative and satellite outcomes for fixed urban markets and urban census blocks, I distinguish aggregate formal-activity responses from within-market spatial incidence. Urban markets with greater nearby rural conflict exposure experience lower municipal formal activity, measured by tax-reported sales: in the preferred specification, sales are about 4 percent lower, even after accounting for conflict events inside the urban area. Other margins adjust more slowly or less consistently. Enterprise counts show at most a short-run decline, while urban nighttime lights and fiscal appraisal respond mainly in lagged specifications rather than in the baseline contemporaneous estimates. Within urban markets, more exposed blocks do not show broad contemporaneous declines in lights or assessed values, but the commercial-use share of the cadastral stock falls modestly. Mechanism patterns are consistent with spatial amplification near historical claim and restitution geography, but they do not identify a clean mediation channel. The results indicate that rural territorial conflict can weaken formal activity in nearby urban markets, with slower and more uneven adjustment in asset and built-form measures.
+  </details>
+
 ## Published Papers
 
 - **Ritter, S. (2025). The economic effect of splitting a region in a centralized country: A case from Chile.**  

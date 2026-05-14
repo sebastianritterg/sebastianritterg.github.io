@@ -5,8 +5,14 @@ permalink: /conferences/
 
 ## Conferences and Seminars
 
+- **"Do language policies affect internal migration in a multilingual country?"**  
+  50th Symposium of the Spanish Economic Association, December 17–19, 2025, Barcelona, Spain.
+
 - **"Measuring the Green Transition in Europe: A Multidimensional Index for European NUTS2 Regions"**  
-  A joint call for action to leave no one behind, 3-4 November 2025, Sarajevo.
+  A joint call for action to leave no one behind, November 3–4, 2025, Sarajevo, Bosnia and Herzegovina.
+
+- **"Measuring the Green Transition in Europe: A Multidimensional Index for NUTS2 Regions"**  
+  XLIX Reunión de Estudios Regionales / International Conference on Regional Science, October 16–18, 2025, Pamplona, Spain. (Co-authored with Vicente Royuela.)
 
 - **"Twin Transition Effects on Human (Im)mobility: A Multilevel Model Analysis."**  
   XLVIII International Conference on Regional Science, October 16-18, 2024, Cuenca, Spain.
