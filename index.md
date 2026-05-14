@@ -32,6 +32,11 @@ title: ""
 
 I am a PhD student in Economics and researcher in the Regional Quantitative Group (AQR) at the University of Barcelona. My research focuses on the economics of migration—linguistic barriers, digital/green transitions and environmental migration—and regional economics & spatial analysis with causal-inference methods.
 
+
+## Job Market Paper
+
+[See my current job market paper: *The Urban Costs of Rural Conflict: Evidence from Southern Chile*](/research/)
+
 ## Contact
 
 ✉️ [sebastianritter@ub.edu](mailto:sebastianritter@ub.edu)  
