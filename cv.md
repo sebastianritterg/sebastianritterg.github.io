@@ -4,7 +4,7 @@ permalink: /cv/
 ---
 # Curriculum Vitae
 
-You can download my full CV in PDF format here:
+You can download my current CV in PDF format here:
 
-[Download my CV (PDF)](/assets/pdf/cv_ritter.pdf)
+[Download my CV (PDF)](/assets/pdf/CV_actual.pdf)
 

@@ -14,7 +14,6 @@ title: ""
   </div>
 </div>
 
-<!-- Foto flotando a la izquierda y un poquito más arriba -->
 <img
   src="/assets/img/profile.jpg"
   alt="Profile photo"
@@ -30,20 +29,22 @@ title: ""
 
 ## About me
 
-I am a PhD student in Economics and researcher in the Regional Quantitative Group (AQR) at the University of Barcelona. My research focuses on the economics of migration—linguistic barriers, digital/green transitions and environmental migration—and regional economics & spatial analysis with causal-inference methods.
+I am a PhD candidate in Economics and researcher in the Regional Quantitative Analysis Group (AQR) at the University of Barcelona. I will be on the 2026-27 economics job market. My research examines how spatial frictions - including language policy, green and twin transitions, and territorial conflict - shape mobility, local economic activity, and regional development. I combine administrative, survey, geospatial, and satellite data with causal-inference methods.
 
+From 28 September to 11 December 2026, I will be a visiting fellow at the [LSE Ca&ntilde;ada Blanch Centre](https://www.lse.ac.uk/canada-blanch) through the LSE-Miguel Dols Fellowship Scheme.
 
 ## Job Market Paper
 
-[See my current job market paper: *The Urban Costs of Rural Conflict: Evidence from Southern Chile*](/research/)
+- [Read my Job Market Paper: *Rural Conflict and Urban Markets: Evidence from Southern Chile* (PDF)](/assets/pdf/sebastian-ritter-jmp.pdf)
+- [View the abstract and other research](/research/)
 
 ## Contact
 
-✉️ [sebastianritter@ub.edu](mailto:sebastianritter@ub.edu)  
-🔗 [LinkedIn](https://www.linkedin.com/in/sebastian-ritter-85033b100)
+- [sebastianritter@ub.edu](mailto:sebastianritter@ub.edu)
+- [LinkedIn](https://www.linkedin.com/in/sebastian-ritter-85033b100)
 
 ## Connect with me
 
-- [GitHub](https://github.com/sebastianritterg)  
-- [Google Scholar](https://scholar.google.com/citations?user=LPW_2A8AAAAJ&hl=es)  
+- [GitHub](https://github.com/sebastianritterg)
+- [Google Scholar](https://scholar.google.com/citations?user=LPW_2A8AAAAJ&hl=es)
 - [Twitter](https://x.com/seba_ritter)
