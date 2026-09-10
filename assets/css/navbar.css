@@ -1,153 +1,93 @@
 .site-header--custom {
-  background-color: #fff;
-  border-top: 4px solid #2c5d81;
-  border-bottom: 1px solid #d8e0e7;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+  background: rgba(250, 248, 243, 0.97);
+  border-bottom: 1px solid var(--line);
+  border-top: 5px solid var(--terracotta);
+  box-shadow: 0 8px 24px rgba(20, 45, 59, 0.05);
 }
 
-.site-header--custom .wrapper {
-  max-width: 1200px;
-}
+.site-header--custom .wrapper { max-width: 1120px; }
 
 .site-header__inner {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+  display: flex;
   gap: 1.5rem;
-  padding: 0.85rem 0;
+  justify-content: space-between;
+  min-height: 68px;
 }
 
 .site-header--custom .site-title {
-  color: #17324d;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  color: var(--ink);
+  font-size: 1.18rem;
+  font-weight: 750;
   line-height: 1.2;
   margin-bottom: 0;
 }
 
 .site-header--custom .site-title:hover,
-.site-header--custom .site-title:focus {
-  color: #2c5d81;
-  text-decoration: none;
-}
+.site-header--custom .site-title:focus { color: var(--terracotta-dark); text-decoration: none; }
 
-.site-nav--custom {
-  float: none;
-  line-height: 1.2;
-  margin-left: auto;
-}
+.site-nav--custom { float: none; line-height: 1.2; margin-left: auto; }
 
 .site-nav__list {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-wrap: wrap;
+  gap: 0.1rem;
   justify-content: flex-end;
-  gap: 0.35rem;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.site-nav__item {
-  margin: 0;
-}
+.site-nav__item { margin: 0; }
 
 .site-header--custom .page-link {
-  display: inline-flex;
   align-items: center;
-  min-height: 2.4rem;
-  padding: 0.2rem 0.8rem;
-  border-radius: 999px;
-  color: #35516b;
-  font-size: 0.98rem;
-  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  color: #40545d;
+  display: inline-flex;
+  font-size: 0.88rem;
+  font-weight: 650;
   line-height: 1.2;
+  margin-left: 0;
+  min-height: 2.6rem;
+  padding: 0.25rem 0.65rem;
   text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.18s ease, color 0.18s ease;
 }
 
 .site-header--custom .page-link:hover,
 .site-header--custom .page-link:focus {
-  background-color: #edf4f9;
-  color: #17324d;
+  border-bottom-color: #cf9b82;
+  color: var(--ink);
   text-decoration: none;
-  transform: translateY(-1px);
 }
 
-.site-header--custom .page-link.is-active {
-  background-color: #2c5d81;
-  color: #fff;
-}
-
-body.page-home .page-content {
-  padding-top: 0;
-}
-
-body.page-home .site-header--custom {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent;
-  border-bottom: 0;
-  box-shadow: none;
-}
-
-body.page-home .site-header--custom .site-title,
-body.page-home .site-header--custom .page-link {
-  color: #fff;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
-}
-
-body.page-home .site-header--custom .site-title:hover,
-body.page-home .site-header--custom .site-title:focus,
-body.page-home .site-header--custom .page-link:hover,
-body.page-home .site-header--custom .page-link:focus {
-  color: #fff;
-}
-
-body.page-home .site-header--custom .page-link:hover,
-body.page-home .site-header--custom .page-link:focus {
-  background-color: rgba(255, 255, 255, 0.14);
-}
-
-body.page-home .site-header--custom .page-link.is-active {
-  background-color: rgba(255, 255, 255, 0.18);
-  color: #fff;
-}
+.site-header--custom .page-link.is-active { border-bottom-color: var(--terracotta); color: var(--ink); }
 
 @media screen and (max-width: 700px) {
-  body.page-home .site-header--custom {
-    position: relative;
-    background: linear-gradient(to bottom, rgba(14, 30, 44, 0.88), rgba(14, 30, 44, 0.7));
-  }
-
   .site-header__inner {
     align-items: flex-start;
     flex-direction: column;
-    gap: 0.75rem;
-    padding: 0.9rem 0;
+    gap: 0.25rem;
+    padding: 0.85rem 0 0.65rem;
   }
 
   .site-nav--custom {
-    background-color: transparent;
+    background: transparent;
     border: 0;
-    border-radius: 0;
     margin-left: 0;
     position: static;
-    right: auto;
     text-align: left;
-    top: auto;
     width: 100%;
   }
 
-  .site-nav__list {
-    justify-content: flex-start;
-  }
+  .site-nav__list { justify-content: flex-start; }
 
-  body.page-home .site-header--custom .site-title,
-  body.page-home .site-header--custom .page-link {
-    text-shadow: none;
+  .site-header--custom .page-link {
+    font-size: 0.8rem;
+    min-height: 2.25rem;
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
   }
 }
