@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "CV"
 permalink: /cv/
 description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics at the University of Barcelona."
