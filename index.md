@@ -1,4 +1,5 @@
 ---
+layout: default
 title: ""
 description: "Sebastian Ritter is a PhD candidate in Economics at the University of Barcelona and is on the 2026-27 economics job market."
 ---
