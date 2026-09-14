@@ -48,7 +48,6 @@ description: "Sebastian Ritter is a PhD candidate in Economics at the University
     <div class="section-heading section-heading--wide">
       <p class="eyebrow eyebrow--dark">Experience at a glance</p>
       <h2 id="highlights-title">Teaching, funding, and recognition</h2>
-      <p>The information most useful to hiring committees, visible without opening the full CV.</p>
     </div>
     <div class="highlight-grid">
       <article class="highlight-card">
