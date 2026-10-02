@@ -6,7 +6,6 @@ description: "Research by Sebastian Ritter on territorial conflict, regional dev
 ---
 
 <header class="page-intro research-intro">
-  <p class="eyebrow eyebrow--dark">Research</p>
   <h1>Research</h1>
   <p>I study how place-based frictions and policy shape economic activity, mobility, and regional development.</p>
 </header>
@@ -69,7 +68,7 @@ description: "Research by Sebastian Ritter on territorial conflict, regional dev
         <p class="research-card__metadata"><strong>JEL</strong> R23 · Q56 · R11</p>
         <div class="research-card__tags" aria-label="Research topics"><span>Green transition</span><span>Migration</span><span>Regional inequality</span></div>
       </div>
-      <figure class="research-card__figure"><img src="{{ '/assets/research/green-mobility-figure.png' | relative_url }}" alt="Estimated associations between green preferences and mobility intentions" loading="lazy"><figcaption>Green preferences and mobility intentions</figcaption></figure>
+      <figure class="research-card__figure"><img src="{{ '/assets/research/green-mobility-horizons.png' | relative_url }}" alt="Average marginal effects of green preferences and regional green-transition indices across migration-intention horizons" loading="lazy"><figcaption>Green preferences and destination opportunities across migration horizons</figcaption></figure>
     </div>
   </article>
   <article class="research-card">
@@ -81,7 +80,7 @@ description: "Research by Sebastian Ritter on territorial conflict, regional dev
         <p class="research-card__metadata"><strong>JEL</strong> R23 · J61</p>
         <div class="research-card__tags" aria-label="Research topics"><span>Migration</span><span>Language policy</span><span>Policy evaluation</span></div>
       </div>
-      <figure class="research-card__figure"><img src="{{ '/assets/research/language-migration-figure.png' | relative_url }}" alt="Estimated migration inflows and outflows for Catalonia relative to a synthetic comparison" loading="lazy"><figcaption>Migration flows: Catalonia and synthetic comparison</figcaption></figure>
+      <figure class="research-card__figure"><img src="{{ '/assets/research/language-migration-figure.png' | relative_url }}" alt="Estimated differences between Catalonia and synthetic Catalonia in migration inflows and outflows" loading="lazy"><figcaption>Estimated effects on inflows and outflows: Catalonia minus synthetic Catalonia</figcaption></figure>
     </div>
   </article>
 </section>
