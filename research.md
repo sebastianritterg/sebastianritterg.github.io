@@ -30,6 +30,19 @@ description: "Research by Sebastian Ritter on territorial conflict, regional dev
 <section class="research-section" aria-labelledby="published-heading">
   <div class="research-section__heading"><p class="eyebrow eyebrow--dark">Peer-reviewed</p><h2 id="published-heading">Published papers</h2></div>
   <article class="research-card">
+    <div class="research-card__top"><div><h3>Will the Green Transition Deepen Regional Divides? Evidence from Mobility Intentions across European Regions</h3><p class="research-card__byline">Sebastian Ritter, Vicente Royuela, and Yann Marx · <em>The Annals of Regional Science</em> 75, 146 (2026)</p></div><span class="research-card__status">Published</span></div>
+    <div class="research-card__grid">
+      <div class="research-card__content">
+        <details class="research-card__abstract"><summary>Abstract</summary><p>The green transition remains at the core of current policy agendas as societies respond to the threats associated with climate change. Previous research has pointed to the possible distributional consequences of the green transition, but much of this discussion remains closer to hypothetical scenarios than to empirical evidence. This paper examines whether Europe's green transition is associated with mobility intentions that may amplify regional inequality. We link MOBI-TWIN microdata on intentions to move (by time horizon) along with respondents' green preferences to NUTS2 indicators of regional green transition performance, opportunities, and vulnerability, alongside standard regional controls. Multilevel logit estimates indicate that, among respondents who report an intended destination, opportunity-rich green regions are more likely to be reported, and this association is stronger at longer time horizons. Green preferences are a strong individual predictor of intending to move and are associated with modest differences in the regional profiles of stated long-run destinations: greener-performing destinations are more often reported by highly pro-environmental individuals, while vulnerable destinations are less often reported by this group. The results suggest that an uneven distribution of green opportunities may translate into unequal future population dynamics across regions. From a policy perspective, this points to the need to complement risk-compensation with place-based capability building and the diffusion of green opportunities in lagging regions, so that the transition supports cohesion rather than divergence.</p></details>
+        <p class="research-card__metadata"><strong>Keywords</strong> Green transition · mobility intentions · regional inequality · environmental preferences · EU regions</p>
+        <p class="research-card__metadata"><strong>JEL</strong> R23 · Q56 · R11</p>
+        <div class="research-card__tags" aria-label="Research topics"><span>Green transition</span><span>Migration</span><span>Regional inequality</span></div>
+        <p class="research-card__links"><a href="https://doi.org/10.1007/s00168-026-01583-7">Journal article / DOI <span aria-hidden="true">↗</span></a></p>
+      </div>
+      <figure class="research-card__figure"><img src="{{ '/assets/research/green-mobility-horizons.png' | relative_url }}" alt="Average marginal effects of green preferences and regional green-transition indices across migration-intention horizons" loading="lazy"><figcaption>Green preferences and destination opportunities across migration horizons</figcaption></figure>
+    </div>
+  </article>
+  <article class="research-card">
     <div class="research-card__top"><div><h3>The Geography of the Green Transition: Performance, Vulnerabilities and Opportunities</h3><p class="research-card__byline">Sebastian Ritter and Vicente Royuela · <em>Papers in Regional Science</em>, 2026</p></div><span class="research-card__status">Published</span></div>
     <div class="research-card__grid">
       <div class="research-card__content">
@@ -59,18 +72,6 @@ description: "Research by Sebastian Ritter on territorial conflict, regional dev
 
 <section class="research-section" aria-labelledby="wip-heading">
   <div class="research-section__heading"><p class="eyebrow eyebrow--dark">Ongoing research</p><h2 id="wip-heading">Work in progress</h2></div>
-  <article class="research-card">
-    <div class="research-card__top"><div><h3>Will the Green Transition Deepen Regional Divides? Evidence from Mobility Intentions across European Regions</h3><p class="research-card__byline">With Vicente Royuela and Yann Marx</p></div><span class="research-card__status research-card__status--wip">Under review</span></div>
-    <div class="research-card__grid">
-      <div class="research-card__content">
-        <details class="research-card__abstract"><summary>Abstract</summary><p>The green transition remains at the core of current policy agendas as societies respond to the threats associated with climate change. Previous research has pointed to the possible distributional consequences of the green transition, but much of this discussion remains closer to hypothetical scenarios than to empirical evidence. This paper examines whether Europe's green transition is associated with mobility intentions that may amplify regional inequality. We link MOBI-TWIN microdata on intentions to move (by time horizon) along with respondents' green preferences to NUTS2 indicators of regional green transition performance, opportunities, and vulnerability, alongside standard regional controls. Multilevel logit estimates indicate that, among respondents who report an intended destination, opportunity-rich green regions are more likely to be reported, and this association is stronger at longer time horizons. Green preferences are a strong individual predictor of intending to move and are associated with modest differences in the regional profiles of stated long-run destinations: greener-performing destinations are more often reported by highly pro-environmental individuals, while vulnerable destinations are less often reported by this group. The results suggest that an uneven distribution of green opportunities may translate into unequal future population dynamics across regions. From a policy perspective, this points to the need to complement risk-compensation with place-based capability building and the diffusion of green opportunities in lagging regions, so that the transition supports cohesion rather than divergence.</p></details>
-        <p class="research-card__metadata"><strong>Keywords</strong> Green transition · mobility intentions · regional inequality · environmental preferences · EU regions</p>
-        <p class="research-card__metadata"><strong>JEL</strong> R23 · Q56 · R11</p>
-        <div class="research-card__tags" aria-label="Research topics"><span>Green transition</span><span>Migration</span><span>Regional inequality</span></div>
-      </div>
-      <figure class="research-card__figure"><img src="{{ '/assets/research/green-mobility-horizons.png' | relative_url }}" alt="Average marginal effects of green preferences and regional green-transition indices across migration-intention horizons" loading="lazy"><figcaption>Green preferences and destination opportunities across migration horizons</figcaption></figure>
-    </div>
-  </article>
   <article class="research-card">
     <div class="research-card__top"><div><h3>Do Language Policies Affect Internal Migration in a Multilingual Country?</h3><p class="research-card__byline">With Antonio Di Paolo, Raül Ramos, and Vicente Royuela</p></div><span class="research-card__status research-card__status--wip">In progress</span></div>
     <div class="research-card__grid">
