@@ -12,7 +12,7 @@ description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics a
       <h1>Sebastian Ritter</h1>
       <p>PhD Candidate in Economics · University of Barcelona</p>
     </div>
-    <a class="button button--primary" href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}">Download full CV (PDF)</a>
+    <a class="button button--primary" href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013">Download full CV (PDF)</a>
   </div>
 </header>
 
@@ -33,7 +33,7 @@ description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics a
     </article>
     <article>
       <h3>Publications</h3>
-      <p>Two published articles, including work in <em>Papers in Regional Science</em>. <a href="{{ '/research/' | relative_url }}">View research</a>.</p>
+      <p>Three published articles, including work in <em>The Annals of Regional Science</em> and <em>Papers in Regional Science</em>. <a href="{{ '/research/' | relative_url }}">View research</a>.</p>
     </article>
   </div>
 </section>
@@ -74,9 +74,9 @@ description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics a
       <p class="eyebrow eyebrow--dark">Full document</p>
       <h2 id="full-cv-title">Complete CV</h2>
     </div>
-    <a href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}">Open in a new tab <span aria-hidden="true">↗</span></a>
+    <a href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013">Open in a new tab <span aria-hidden="true">↗</span></a>
   </div>
-  <object class="cv-pdf__object" data="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}#view=FitH" type="application/pdf" aria-label="Sebastian Ritter's full curriculum vitae">
-    <p>Your browser cannot display the PDF inline. <a href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}">Download the full CV</a>.</p>
+  <object class="cv-pdf__object" data="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013#view=FitH" type="application/pdf" aria-label="Sebastian Ritter's full curriculum vitae">
+    <p>Your browser cannot display the PDF inline. <a href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013">Download the full CV</a>.</p>
   </object>
 </section>
