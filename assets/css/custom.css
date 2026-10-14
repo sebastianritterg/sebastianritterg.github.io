@@ -125,6 +125,12 @@ body.page-home .page-content { padding-top: 0; }
 .market-hero__role span { color: #d5e1df; }
 .market-hero__lede { color: #e9efed; font-size: 1.07rem; max-width: 600px; }
 
+.market-hero__personal {
+  color: #d5e1df;
+  font-size: 0.95rem;
+  margin: 1.25rem 0 0;
+}
+
 .market-hero__note {
   border-left: 3px solid #d59b7b;
   color: #d9e3e1;

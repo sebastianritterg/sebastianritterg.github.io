@@ -16,6 +16,7 @@ description: "Sebastian Ritter is a PhD candidate in Economics at the University
         <a class="button button--ghost" href="{{ '/cv/' | relative_url }}">View CV</a>
       </div>
       <p class="market-hero__note"><strong>Visiting fellow, LSE Cañada Blanch Centre</strong><br>September–December 2026 · LSE-Miguel Dols Fellowship Scheme</p>
+      <p class="market-hero__personal"><strong>A little about me:</strong> Chilean, occasional fisherman, and amateur goalkeeper.</p>
     </div>
     <figure class="market-hero__portrait">
       <img
