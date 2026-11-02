@@ -12,7 +12,7 @@ description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics a
       <h1>Sebastian Ritter</h1>
       <p>PhD Candidate in Economics · University of Barcelona</p>
     </div>
-    <a class="button button--primary" href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013">Download full CV (PDF)</a>
+    <a class="button button--primary" href="{{ '/assets/pdf/Ritter_CV.pdf' | relative_url }}?v=20261102-final">Download full CV (PDF)</a>
   </div>
 </header>
 
@@ -42,6 +42,11 @@ description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics a
   <article class="cv-feature">
     <p class="eyebrow eyebrow--dark">Teaching experience</p>
     <div class="cv-entry">
+      <h2>Teaching Innovation Project Contributor</h2>
+      <p class="cv-entry__meta">University of Barcelona · 2026</p>
+      <p>Developed R scripts, collected and prepared datasets, and created practical exercises with worked solutions for self-guided study, contributing to the integration of causal inference into quantitative courses.</p>
+    </div>
+    <div class="cv-entry">
       <h2>Substitute Lecturer</h2>
       <p class="cv-entry__meta">Autonomous University of Barcelona · April–June 2024</p>
       <p>Econometrics I, Study Abroad RUIYA Program. Delivered lectures, prepared original applied materials, and assessed student performance.</p>
@@ -68,15 +73,29 @@ description: "Curriculum vitae of Sebastian Ritter, PhD candidate in Economics a
   </article>
 </section>
 
+<section class="cv-feature" aria-labelledby="professional-experience-title">
+  <h2 id="professional-experience-title">Research and professional experience</h2>
+  <div class="cv-entry">
+    <h3>Technical Support Officer in Environmental Economics</h3>
+    <p class="cv-entry__meta">Cetaqua Water Technology Centre, Barcelona, Spain · September 2022–September 2023</p>
+    <p>Conducted cost-benefit and life-cycle costing analyses of environmental technologies, including Monte Carlo sensitivity analysis. Analysed microdata to assess eligibility for water-tariff subsidies and contributed to climate-risk damage assessment using input-output and econometric methods.</p>
+  </div>
+</section>
+
+<section class="cv-feature" aria-labelledby="academic-service-title">
+  <h2 id="academic-service-title">Academic service</h2>
+  <p><strong>Ad hoc referee:</strong> <em>Investigaciones Regionales – Journal of Regional Research</em> (2026; review in progress).</p>
+</section>
+
 <section class="cv-pdf" aria-labelledby="full-cv-title">
   <div class="cv-pdf__heading">
     <div>
       <p class="eyebrow eyebrow--dark">Full document</p>
       <h2 id="full-cv-title">Complete CV</h2>
     </div>
-    <a href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013">Open in a new tab <span aria-hidden="true">↗</span></a>
+    <a href="{{ '/assets/pdf/Ritter_CV.pdf' | relative_url }}?v=20261102-final">Open in a new tab <span aria-hidden="true">↗</span></a>
   </div>
-  <object class="cv-pdf__object" data="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013#view=FitH" type="application/pdf" aria-label="Sebastian Ritter's full curriculum vitae">
-    <p>Your browser cannot display the PDF inline. <a href="{{ '/assets/pdf/CV_actual.pdf' | relative_url }}?v=20261013">Download the full CV</a>.</p>
+  <object class="cv-pdf__object" data="{{ '/assets/pdf/Ritter_CV.pdf' | relative_url }}?v=20261102-final#view=FitH" type="application/pdf" aria-label="Sebastian Ritter's full curriculum vitae">
+    <p>Your browser cannot display the PDF inline. <a href="{{ '/assets/pdf/Ritter_CV.pdf' | relative_url }}?v=20261102-final">Download the full CV</a>.</p>
   </object>
 </section>
